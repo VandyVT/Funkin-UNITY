@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Global : MonoBehaviour
+public class GlobalManager : MonoBehaviour
 {
-    [SerializeField] private bool StoryMode;
-    [SerializeField] private bool Freeplay;
+    [SerializeField] public bool StoryMode;
+    [SerializeField] public bool Freeplay;
 
     public GameObject IntroMusic;
     public GameObject MenuMusic;
@@ -27,5 +27,15 @@ public class Global : MonoBehaviour
         {
             MenuMusic.GetComponent<AudioSource>().Play();
         }
+    }
+
+    public void ToggleStory()
+    {
+        StoryMode = !StoryMode;
+    }
+
+    public void ToggleFreeplay()
+    {
+        Freeplay = !Freeplay;
     }
 }
