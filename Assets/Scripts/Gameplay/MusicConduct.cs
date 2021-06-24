@@ -14,12 +14,14 @@ public class MusicConduct : MonoBehaviour
     public float songPositionInBeats;
     float dspSongTime;
     [SerializeField] private float firstBeatOffset;
+    public int BobInt;
     [SerializeField] private AudioSource musicSource;
     [SerializeField] private AudioSource voiceSource;
     public GameObject Note;
     public Slider Healthbar;
     public Image BF_Canvas;
     public Sprite[] Boyfriend;
+    public GameObject[] DisableOnDeath;
 
     [Header("Song Info")]
     public float bpm;
@@ -45,8 +47,12 @@ public class MusicConduct : MonoBehaviour
     
     void Update()
     {
-        //Change UI character images based on health value
-        if(Healthbar.value > -25)
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Healthbar.value = 0;
+        }
+            //Change UI character images based on health value
+            if (Healthbar.value > -21)
         {
             BF_Canvas.GetComponent<Image>().sprite = Boyfriend [1];
         }
@@ -54,6 +60,19 @@ public class MusicConduct : MonoBehaviour
         else
         {
             BF_Canvas.GetComponent<Image>().sprite = Boyfriend[0];
+        }
+
+        //Initiate death sequence when slider value is 0
+        if(Healthbar.value >= 0)
+        {
+            musicSource.Stop();
+            voiceSource.Stop();
+            for (int i = 0; i < DisableOnDeath.Length; i++)
+            {
+                DisableOnDeath[i].SetActive(false);
+                Destroy(DisableOnDeath[i].gameObject);
+            }
+            Destroy(gameObject);
         }
 
         //determine how many seconds since the song started
@@ -67,6 +86,7 @@ public class MusicConduct : MonoBehaviour
 
         //determine how many beats since the song started
         songPositionInBeats = songPosition / secPerBeat;
+        BobInt = (int)songPositionInBeats;
         if (nextIndex < notes.Length && notes[nextIndex] < songPositionInBeats)
         {
             Instantiate(Note);
