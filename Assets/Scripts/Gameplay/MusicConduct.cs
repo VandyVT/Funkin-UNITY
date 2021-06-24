@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class MusicConduct : MonoBehaviour
 {
+    public static MusicConduct Instance;
     [Header("Technical Info")]
     public float songBpm;
     public float secPerBeat;
@@ -27,6 +29,10 @@ public class MusicConduct : MonoBehaviour
     //The animator controller to the player
     public Animator Player;
 
+    private void Awake() {
+        if(Instance != null) return;
+        Instance = this;
+    }
     void Start()
     {
         //Number of seconds in each beat
