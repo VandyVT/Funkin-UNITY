@@ -1,7 +1,763 @@
 fileFormatVersion: 2
 guid: 28d1b0f65e4a714419950235cf8611ee
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1644213041959152735
+    second: GF Cheer0000
+  - first:
+      213: 6547882529146864147
+    second: GF Cheer0001
+  - first:
+      213: 8070147598253171500
+    second: GF Cheer0002
+  - first:
+      213: -7304584843667211479
+    second: GF Cheer0003
+  - first:
+      213: -5222965179918496963
+    second: GF Cheer0004
+  - first:
+      213: 1989331161416899330
+    second: GF Cheer0005
+  - first:
+      213: -8646794091360489036
+    second: GF Cheer0006
+  - first:
+      213: -1634306397215357587
+    second: GF Cheer0007
+  - first:
+      213: 3920332488092552212
+    second: GF Cheer0008
+  - first:
+      213: 252034035162487722
+    second: GF Cheer0009
+  - first:
+      213: -3449838134729855524
+    second: GF Cheer0010
+  - first:
+      213: 5967108845458388927
+    second: GF Cheer0011
+  - first:
+      213: 6268227664805730566
+    second: GF Cheer0012
+  - first:
+      213: 2994328030799963367
+    second: GF Cheer0013
+  - first:
+      213: -5768111785082120232
+    second: GF Cheer0014
+  - first:
+      213: 5019510424499291244
+    second: GF Cheer0015
+  - first:
+      213: 8524734399946162316
+    second: GF Cheer0016
+  - first:
+      213: 2511581419414685390
+    second: GF Cheer0017
+  - first:
+      213: 6242803540438692109
+    second: GF Cheer0018
+  - first:
+      213: -5616129041101623178
+    second: GF Cheer0019
+  - first:
+      213: 2834888955841276475
+    second: GF Cheer0020
+  - first:
+      213: 8431491585289067547
+    second: GF Dancing Beat0000
+  - first:
+      213: 507675685231954259
+    second: GF Dancing Beat0001
+  - first:
+      213: -596126566302624776
+    second: GF Dancing Beat0002
+  - first:
+      213: -2383955118868007816
+    second: GF Dancing Beat0003
+  - first:
+      213: 2714379920886763045
+    second: GF Dancing Beat0004
+  - first:
+      213: -354780311428995609
+    second: GF Dancing Beat0005
+  - first:
+      213: 5164553723620047186
+    second: GF Dancing Beat0006
+  - first:
+      213: -7984360189194582129
+    second: GF Dancing Beat0007
+  - first:
+      213: -4956381509003010039
+    second: GF Dancing Beat0008
+  - first:
+      213: 4991422022584990784
+    second: GF Dancing Beat0009
+  - first:
+      213: 5472692160989668421
+    second: GF Dancing Beat0010
+  - first:
+      213: 8523446957222227587
+    second: GF Dancing Beat0011
+  - first:
+      213: -1582771184706457556
+    second: GF Dancing Beat0012
+  - first:
+      213: -1123246982362888112
+    second: GF Dancing Beat0013
+  - first:
+      213: -7627325898237102684
+    second: GF Dancing Beat0014
+  - first:
+      213: 1432318458517178182
+    second: GF Dancing Beat0015
+  - first:
+      213: 1984457963037603380
+    second: GF Dancing Beat0016
+  - first:
+      213: 8987765548381212989
+    second: GF Dancing Beat0017
+  - first:
+      213: -3483798151942384453
+    second: GF Dancing Beat0018
+  - first:
+      213: 4130838593685828216
+    second: GF Dancing Beat0019
+  - first:
+      213: 9039553671764181339
+    second: GF Dancing Beat0020
+  - first:
+      213: 6517645871253457386
+    second: GF Dancing Beat0021
+  - first:
+      213: -6513707782935327436
+    second: GF Dancing Beat0022
+  - first:
+      213: -243989687499934242
+    second: GF Dancing Beat0023
+  - first:
+      213: 3311495455627697062
+    second: GF Dancing Beat0024
+  - first:
+      213: 3997475860103918226
+    second: GF Dancing Beat0025
+  - first:
+      213: 886396277679432950
+    second: GF Dancing Beat0026
+  - first:
+      213: 1410718190305895925
+    second: GF Dancing Beat0027
+  - first:
+      213: 5774133415231388400
+    second: GF Dancing Beat0028
+  - first:
+      213: 2502626369080856047
+    second: GF Dancing Beat0029
+  - first:
+      213: 500386043611740374
+    second: GF Dancing Beat Hair Landing0000
+  - first:
+      213: -4492171580128219848
+    second: GF Dancing Beat Hair Landing0001
+  - first:
+      213: -7665241443707310177
+    second: GF Dancing Beat Hair Landing0002
+  - first:
+      213: 1304686791506205283
+    second: GF Dancing Beat Hair Landing0003
+  - first:
+      213: -5856121710656884521
+    second: GF Dancing Beat Hair Landing0004
+  - first:
+      213: -3798359154661588358
+    second: GF Dancing Beat Hair Landing0005
+  - first:
+      213: -1103539436141413220
+    second: GF Dancing Beat Hair Landing0006
+  - first:
+      213: 756262912882126962
+    second: GF Dancing Beat Hair Landing0007
+  - first:
+      213: 5276226337309843988
+    second: GF Dancing Beat Hair Landing0008
+  - first:
+      213: 6593041684920082631
+    second: GF Dancing Beat Hair Landing0009
+  - first:
+      213: 7775887918853806437
+    second: GF Dancing Beat Hair Landing0010
+  - first:
+      213: -156109966928804684
+    second: GF Dancing Beat Hair Landing0011
+  - first:
+      213: -8620109495274417452
+    second: GF Dancing Beat Hair Landing0012
+  - first:
+      213: 2793848654418529915
+    second: GF Dancing Beat Hair Landing0013
+  - first:
+      213: 3519849755114822848
+    second: GF Dancing Beat Hair Landing0014
+  - first:
+      213: 3359602878336634274
+    second: GF Dancing Beat Hair Landing0015
+  - first:
+      213: -6217718626025077819
+    second: GF Dancing Beat Hair Landing0016
+  - first:
+      213: -5523361009675805495
+    second: GF Dancing Beat Hair Landing0017
+  - first:
+      213: -4537077225695801451
+    second: GF Dancing Beat Hair Landing0018
+  - first:
+      213: 4034480045055103269
+    second: GF Dancing Beat Hair Landing0019
+  - first:
+      213: 8740901224813358679
+    second: GF Dancing Beat Hair Landing0020
+  - first:
+      213: 3512929564528796620
+    second: GF Dancing Beat Hair Landing0021
+  - first:
+      213: -6826352562818240990
+    second: GF Dancing Beat Hair Landing0022
+  - first:
+      213: 8899494912344780803
+    second: GF Dancing Beat Hair Landing0023
+  - first:
+      213: -7653772350342951852
+    second: GF Dancing Beat Hair Landing0024
+  - first:
+      213: 8342964547895180826
+    second: GF Dancing Beat Hair Landing0025
+  - first:
+      213: -230256169813529293
+    second: GF Dancing Beat Hair Landing0026
+  - first:
+      213: 6204661745730105099
+    second: GF Dancing Beat Hair Landing0027
+  - first:
+      213: -6239321434566408215
+    second: GF Dancing Beat Hair Landing0028
+  - first:
+      213: 8858255837359013121
+    second: GF Dancing Beat Hair Landing0029
+  - first:
+      213: 5613899370739134245
+    second: GF Dancing Beat Hair blowing0000
+  - first:
+      213: 6303986227118762598
+    second: GF Dancing Beat Hair blowing0001
+  - first:
+      213: 6738952634182121728
+    second: GF Dancing Beat Hair blowing0002
+  - first:
+      213: -8825035881622896695
+    second: GF Dancing Beat Hair blowing0003
+  - first:
+      213: -8376704337277856401
+    second: GF Dancing Beat Hair blowing0004
+  - first:
+      213: -6536676093365266370
+    second: GF Dancing Beat Hair blowing0005
+  - first:
+      213: -5970184147251778777
+    second: GF Dancing Beat Hair blowing0006
+  - first:
+      213: -5388779959710535807
+    second: GF Dancing Beat Hair blowing0007
+  - first:
+      213: 4834447104815798443
+    second: GF Dancing Beat Hair blowing0008
+  - first:
+      213: -4421270732022266890
+    second: GF Dancing Beat Hair blowing0009
+  - first:
+      213: -8525198764480161044
+    second: GF Dancing Beat Hair blowing0010
+  - first:
+      213: -3077565695536391422
+    second: GF Dancing Beat Hair blowing0011
+  - first:
+      213: 5580398269765917745
+    second: GF Dancing Beat Hair blowing0012
+  - first:
+      213: -4943430763644480484
+    second: GF Dancing Beat Hair blowing0013
+  - first:
+      213: 5533001237890087316
+    second: GF Dancing Beat Hair blowing0014
+  - first:
+      213: 6632305635838965384
+    second: GF Dancing Beat Hair blowing0015
+  - first:
+      213: -3268730528186174940
+    second: GF Dancing Beat Hair blowing0016
+  - first:
+      213: 3962821557059874760
+    second: GF Dancing Beat Hair blowing0017
+  - first:
+      213: 1567329601203457712
+    second: GF Dancing Beat Hair blowing0018
+  - first:
+      213: 3623410431808931421
+    second: GF Dancing Beat Hair blowing0019
+  - first:
+      213: 2041984222580071354
+    second: GF Dancing Beat Hair blowing0020
+  - first:
+      213: -5245827099258870670
+    second: GF Dancing Beat Hair blowing0021
+  - first:
+      213: 8619743427007411175
+    second: GF Dancing Beat Hair blowing0022
+  - first:
+      213: 2289681317654024069
+    second: GF Dancing Beat Hair blowing0023
+  - first:
+      213: -6099439048324477647
+    second: GF Dancing Beat Hair blowing0024
+  - first:
+      213: -628324297177235859
+    second: GF Dancing Beat Hair blowing0025
+  - first:
+      213: 6305882782789081582
+    second: GF Dancing Beat Hair blowing0026
+  - first:
+      213: 949634724425703450
+    second: GF Dancing Beat Hair blowing0027
+  - first:
+      213: -4402898624039394131
+    second: GF Dancing Beat Hair blowing0028
+  - first:
+      213: -961702535531056227
+    second: GF Dancing Beat Hair blowing0029
+  - first:
+      213: -1930587889914387834
+    second: GF Down Note0000
+  - first:
+      213: -1957841566656746521
+    second: GF Down Note0001
+  - first:
+      213: -6443741990911527048
+    second: GF Down Note0002
+  - first:
+      213: -1240088041168297755
+    second: GF Down Note0003
+  - first:
+      213: -8200682088805558800
+    second: GF Down Note0004
+  - first:
+      213: 7386862432856500094
+    second: GF Down Note0005
+  - first:
+      213: -62842507927835692
+    second: GF Down Note0006
+  - first:
+      213: 6820148041817662059
+    second: GF Down Note0007
+  - first:
+      213: 148638672971573855
+    second: GF Down Note0008
+  - first:
+      213: 8793593365973324368
+    second: GF Down Note0009
+  - first:
+      213: -5749273165235353970
+    second: GF Down Note0010
+  - first:
+      213: 1589469568281164498
+    second: GF Down Note0011
+  - first:
+      213: -6367926429999352041
+    second: GF Down Note0012
+  - first:
+      213: -3260410490159277615
+    second: GF Down Note0013
+  - first:
+      213: 8295007234319290650
+    second: GF Down Note0014
+  - first:
+      213: -9043614964349250149
+    second: GF Down Note0015
+  - first:
+      213: -2157770340836990786
+    second: GF Down Note0016
+  - first:
+      213: -603701173086661870
+    second: GF Down Note0017
+  - first:
+      213: -1389881960040547712
+    second: GF Down Note0018
+  - first:
+      213: -8786297376489239807
+    second: GF Down Note0019
+  - first:
+      213: 4294082011569468280
+    second: GF FEAR 0000
+  - first:
+      213: 2449693327007365138
+    second: GF FEAR 0001
+  - first:
+      213: 6775691793967801134
+    second: GF FEAR 0002
+  - first:
+      213: 2408893344577245080
+    second: GF FEAR 0003
+  - first:
+      213: -1588656392919305959
+    second: GF Right Note0000
+  - first:
+      213: -5908343204575711778
+    second: GF Right Note0001
+  - first:
+      213: -2980462025788543770
+    second: GF Right Note0002
+  - first:
+      213: -1627679751270547635
+    second: GF Right Note0003
+  - first:
+      213: 786669398208213814
+    second: GF Right Note0004
+  - first:
+      213: 508620945821085195
+    second: GF Right Note0005
+  - first:
+      213: -1031268295671648665
+    second: GF Right Note0006
+  - first:
+      213: 3123607382369022533
+    second: GF Right Note0007
+  - first:
+      213: 1372430444015317240
+    second: GF Right Note0008
+  - first:
+      213: -4931132938385904034
+    second: GF Right Note0009
+  - first:
+      213: 1699911793692294519
+    second: GF Right Note0010
+  - first:
+      213: -7081440680489110082
+    second: GF Right Note0011
+  - first:
+      213: 552513223334982321
+    second: GF Right Note0012
+  - first:
+      213: -6114991276791864741
+    second: GF Right Note0013
+  - first:
+      213: 830630672639098713
+    second: GF Right Note0014
+  - first:
+      213: -1831916671315312466
+    second: GF Up Note0000
+  - first:
+      213: 2922938992741466482
+    second: GF Up Note0001
+  - first:
+      213: 5782540937991116348
+    second: GF Up Note0002
+  - first:
+      213: 4589803789188290038
+    second: GF Up Note0003
+  - first:
+      213: 825828730781879724
+    second: GF Up Note0004
+  - first:
+      213: 1376918163023969926
+    second: GF Up Note0005
+  - first:
+      213: -6775914233758736210
+    second: GF Up Note0006
+  - first:
+      213: -5987536504692733219
+    second: GF left note0000
+  - first:
+      213: 2860671250260218411
+    second: GF left note0001
+  - first:
+      213: 9170116477037703339
+    second: GF left note0002
+  - first:
+      213: 8392866419362100648
+    second: GF left note0003
+  - first:
+      213: -7191807242692423666
+    second: GF left note0004
+  - first:
+      213: 2319346459441496142
+    second: GF left note0005
+  - first:
+      213: -9089934807157603628
+    second: GF left note0006
+  - first:
+      213: -1607570537103363062
+    second: GF left note0007
+  - first:
+      213: -5066406937682836980
+    second: GF left note0008
+  - first:
+      213: -2333246753316028893
+    second: GF left note0009
+  - first:
+      213: -2983796652814792234
+    second: GF left note0010
+  - first:
+      213: 7878820001092616234
+    second: GF left note0011
+  - first:
+      213: 7542318238801260107
+    second: GF left note0012
+  - first:
+      213: 7600796799752727401
+    second: GF left note0013
+  - first:
+      213: 3629496913340969234
+    second: GF left note0014
+  - first:
+      213: 6590216790120176737
+    second: gf sad0000
+  - first:
+      213: -4596642329007709451
+    second: gf sad0001
+  - first:
+      213: -6353022253628965603
+    second: gf sad0002
+  - first:
+      213: -4656779894331079380
+    second: gf sad0003
+  - first:
+      213: -6703674925077879095
+    second: gf sad0004
+  - first:
+      213: 5141874912443600223
+    second: gf sad0005
+  - first:
+      213: -2962720531117737737
+    second: gf sad0006
+  - first:
+      213: 8980991100489487467
+    second: gf sad0007
+  - first:
+      213: -4463047063883496
+    second: gf sad0008
+  - first:
+      213: -5392565705171518072
+    second: gf sad0009
+  - first:
+      213: 7036833202230361790
+    second: gf sad0010
+  - first:
+      213: -4468044826686014245
+    second: gf sad0011
+  - first:
+      213: -3868579810022563034
+    second: gf sad0012
+  - first:
+      213: 3612882734433897378
+    second: gf sad0013
+  - first:
+      213: -6656100578170245483
+    second: gf sad0014
+  - first:
+      213: 3237636209963077824
+    second: gf sad0015
+  - first:
+      213: -5381223198942753674
+    second: gf sad0016
+  - first:
+      213: -6635853233413975637
+    second: gf sad0017
+  - first:
+      213: 7396582742900874108
+    second: gf sad0018
+  - first:
+      213: 2701612260222218200
+    second: gf sad0019
+  - first:
+      213: -7857561220935609855
+    second: gf sad0020
+  - first:
+      213: 2707762204025272679
+    second: gf sad0021
+  - first:
+      213: -8802389749088812947
+    second: gf sad0022
+  - first:
+      213: 2944370711852446196
+    second: gf sad0023
+  - first:
+      213: 8514325683078830186
+    second: gf sad0024
+  - first:
+      213: 1374339242823214248
+    second: gf sad0025
+  - first:
+      213: -4768996817806371130
+    second: gf sad0026
+  - first:
+      213: 4192149501332087327
+    second: gf sad0027
+  - first:
+      213: -3499655098588396931
+    second: gf sad0028
+  - first:
+      213: 4896411626845407556
+    second: gf sad0029
+  - first:
+      213: 2141939844578658083
+    second: gf sad0030
+  - first:
+      213: 2519326589324160617
+    second: gf sad0031
+  - first:
+      213: 1269500967463178222
+    second: gf sad0032
+  - first:
+      213: 7826360970610589977
+    second: gf sad0033
+  - first:
+      213: -4130222000437912121
+    second: gf sad0034
+  - first:
+      213: 1908883471024534708
+    second: gf sad0035
+  - first:
+      213: -5160408912084221435
+    second: gf sad0036
+  - first:
+      213: -3270723773076414905
+    second: gf sad0037
+  - first:
+      213: 7576687602057283872
+    second: gf sad0038
+  - first:
+      213: 4605245060283849671
+    second: gf sad0039
+  - first:
+      213: 5893477533881114973
+    second: gf sad0040
+  - first:
+      213: -3638062077156904826
+    second: gf sad0041
+  - first:
+      213: 1198387591785286412
+    second: gf sad0042
+  - first:
+      213: -2048016363890065752
+    second: gf sad0043
+  - first:
+      213: 4919796553082541627
+    second: gf sad0044
+  - first:
+      213: 851106719348697861
+    second: gf sad0045
+  - first:
+      213: -5323901491041619179
+    second: gf sad0046
+  - first:
+      213: 2745140342122787539
+    second: gf sad0047
+  - first:
+      213: -6038904714865296612
+    second: gf sad0048
+  - first:
+      213: 6796996229905594464
+    second: gf sad0049
+  - first:
+      213: -8137836303068959119
+    second: gf sad0050
+  - first:
+      213: 952758159767365085
+    second: gf sad0051
+  - first:
+      213: 418876083239855314
+    second: gf sad0052
+  - first:
+      213: 1640941689864750819
+    second: gf sad0053
+  - first:
+      213: 4400447590224651829
+    second: gf sad0054
+  - first:
+      213: 4759499330257856474
+    second: gf sad0055
+  - first:
+      213: -6497318188547136350
+    second: gf sad0056
+  - first:
+      213: 8617572184649469770
+    second: gf sad0057
+  - first:
+      213: 142930513451150289
+    second: gf sad0058
+  - first:
+      213: -2915297827364951964
+    second: gf sad0059
+  - first:
+      213: 6355956813354262276
+    second: gf sad0060
+  - first:
+      213: -1836145115176104707
+    second: gf sad0061
+  - first:
+      213: 3609484080734713554
+    second: gf sad0062
+  - first:
+      213: 4591963848231086431
+    second: gf sad0063
+  - first:
+      213: -4774408001214305063
+    second: gf sad0064
+  - first:
+      213: -6065940020288867509
+    second: gf sad0065
+  - first:
+      213: -2234286625216479592
+    second: gf sad0066
+  - first:
+      213: -8241702422944240312
+    second: gf sad0067
+  - first:
+      213: -3841865718862985275
+    second: gf sad0068
+  - first:
+      213: -5765340694470358030
+    second: gf sad0069
+  - first:
+      213: -841572117831179876
+    second: gf sad0070
+  - first:
+      213: 5832199330512414278
+    second: gf sad0071
+  - first:
+      213: -512405946014418184
+    second: gf sad0072
+  - first:
+      213: -6099254298681733559
+    second: gf sad0073
+  - first:
+      213: -1666183820876920436
+    second: gf sad0074
+  - first:
+      213: 4258586503425902884
+    second: gf sad0075
+  - first:
+      213: 6932585326036664003
+    second: gf sad0076
+  - first:
+      213: -5416869510697631535
+    second: gf sad0077
+  - first:
+      213: -6531320544702911349
+    second: gf sad0078
+  - first:
+      213: 8837554686427374370
+    second: gf sad0079
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +796,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -61,7 +817,31 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -73,7 +853,5299 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: GF Cheer0000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7535
+        width: 699
+        height: 657
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c2a0ddc0b61d610800000000000000
+      internalID: 1644213041959152735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0001
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 7535
+        width: 703
+        height: 657
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31209c4d770ceda50800000000000000
+      internalID: 6547882529146864147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0002
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 7538
+        width: 703
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c232adeab7ceeff60800000000000000
+      internalID: 8070147598253171500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0003
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 7538
+        width: 699
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b738939c6e0aa90800000000000000
+      internalID: -7304584843667211479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0004
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 7538
+        width: 699
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b49b067dc4487b0800000000000000
+      internalID: -5222965179918496963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0005
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 7538
+        width: 699
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b9ed0c6268b9b10800000000000000
+      internalID: 1989331161416899330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0006
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 7538
+        width: 699
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1f28a269a600880800000000000000
+      internalID: -8646794091360489036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0007
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 7538
+        width: 699
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6584db9df6c159e0800000000000000
+      internalID: -1634306397215357587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0008
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 7538
+        width: 699
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c0e2a80a1d76630800000000000000
+      internalID: 3920332488092552212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0009
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 7538
+        width: 699
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab1b21ae976f7300800000000000000
+      internalID: 252034035162487722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0010
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 7538
+        width: 699
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdda4d69e76bf10d0800000000000000
+      internalID: -3449838134729855524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0011
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 7538
+        width: 699
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb773ad31ed6fc250800000000000000
+      internalID: 5967108845458388927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0012
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 7538
+        width: 699
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6099504c9d73df650800000000000000
+      internalID: 6268227664805730566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0013
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 7538
+        width: 699
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4a3d8ba7dfd8920800000000000000
+      internalID: 2994328030799963367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0014
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 7538
+        width: 699
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d79f6964ec83ffa0800000000000000
+      internalID: -5768111785082120232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0015
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 7538
+        width: 699
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6486a6f222e8a540800000000000000
+      internalID: 5019510424499291244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0016
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 7538
+        width: 699
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80085155c0fd4670800000000000000
+      internalID: 8524734399946162316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0017
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 7538
+        width: 699
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec60fa87efdead220800000000000000
+      internalID: 2511581419414685390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0018
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 7538
+        width: 699
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0136668eb4e2a650800000000000000
+      internalID: 6242803540438692109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0019
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 7538
+        width: 699
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670f16484608f02b0800000000000000
+      internalID: -5616129041101623178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Cheer0020
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 7538
+        width: 699
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ae8964c7c875720800000000000000
+      internalID: 2834888955841276475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0000
+      rect:
+        serializedVersion: 2
+        x: 3553
+        y: 7558
+        width: 699
+        height: 634
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c99d3cceca20570800000000000000
+      internalID: 8431491585289067547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0001
+      rect:
+        serializedVersion: 2
+        x: 4262
+        y: 7558
+        width: 703
+        height: 634
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3598a5f8850ab0700800000000000000
+      internalID: 507675685231954259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0002
+      rect:
+        serializedVersion: 2
+        x: 4975
+        y: 7560
+        width: 703
+        height: 632
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3db5edb022ab7f0800000000000000
+      internalID: -596126566302624776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0003
+      rect:
+        serializedVersion: 2
+        x: 5688
+        y: 7560
+        width: 699
+        height: 632
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874f56b337d7aeed0800000000000000
+      internalID: -2383955118868007816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0004
+      rect:
+        serializedVersion: 2
+        x: 6397
+        y: 7557
+        width: 699
+        height: 635
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e88e9182a6ba520800000000000000
+      internalID: 2714379920886763045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0005
+      rect:
+        serializedVersion: 2
+        x: 7106
+        y: 7557
+        width: 699
+        height: 635
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5e8fbbf21931bf0800000000000000
+      internalID: -354780311428995609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0006
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6888
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2593bc7af3e2ca740800000000000000
+      internalID: 5164553723620047186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0007
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 6877
+        width: 699
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87494cf5bad13190800000000000000
+      internalID: -7984360189194582129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0008
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 6877
+        width: 699
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900af801745673bb0800000000000000
+      internalID: -4956381509003010039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0009
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 6877
+        width: 699
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c7d3442e7154540800000000000000
+      internalID: 4991422022584990784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0010
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 6877
+        width: 699
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544aadc5688e2fb40800000000000000
+      internalID: 5472692160989668421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0011
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 6877
+        width: 699
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e6d1339dd594670800000000000000
+      internalID: 8523446957222227587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0012
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 6877
+        width: 699
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20f8de4efdd80ae0800000000000000
+      internalID: -1582771184706457556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0013
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 6877
+        width: 699
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0580b3d12dc6960f0800000000000000
+      internalID: -1123246982362888112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0014
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 6877
+        width: 699
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5b071c18b462690800000000000000
+      internalID: -7627325898237102684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0015
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 6889
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647c62d9c0e90e310800000000000000
+      internalID: 1432318458517178182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0016
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 6889
+        width: 703
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4363d86d0063a8b10800000000000000
+      internalID: 1984457963037603380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0017
+      rect:
+        serializedVersion: 2
+        x: 4258
+        y: 6889
+        width: 703
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3191c3a525fabc70800000000000000
+      internalID: 8987765548381212989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0018
+      rect:
+        serializedVersion: 2
+        x: 4971
+        y: 6889
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4df4ce90017afc0800000000000000
+      internalID: -3483798151942384453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0019
+      rect:
+        serializedVersion: 2
+        x: 5680
+        y: 6888
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8723e1990dfa35930800000000000000
+      internalID: 4130838593685828216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0020
+      rect:
+        serializedVersion: 2
+        x: 6389
+        y: 6888
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51059dbb22f27d70800000000000000
+      internalID: 9039553671764181339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0021
+      rect:
+        serializedVersion: 2
+        x: 7098
+        y: 6887
+        width: 699
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae98adf4364537a50800000000000000
+      internalID: 6517645871253457386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0022
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6224
+        width: 699
+        height: 643
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d41735849aa95a0800000000000000
+      internalID: -6513707782935327436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0023
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6224
+        width: 699
+        height: 643
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed535b30cac2d9cf0800000000000000
+      internalID: -243989687499934242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0024
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6224
+        width: 699
+        height: 643
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab5204629bc4fd20800000000000000
+      internalID: 3311495455627697062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0025
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 6225
+        width: 699
+        height: 642
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29271bf7d13e97730800000000000000
+      internalID: 3997475860103918226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0026
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 6225
+        width: 699
+        height: 642
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4af4dd7bc1d4c00800000000000000
+      internalID: 886396277679432950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0027
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 6225
+        width: 699
+        height: 642
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f56d5348b0e39310800000000000000
+      internalID: 1410718190305895925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0028
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 6225
+        width: 699
+        height: 642
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa749c9fb7d12050800000000000000
+      internalID: 5774133415231388400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat0029
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 6225
+        width: 699
+        height: 642
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed07965c6d1bb220800000000000000
+      internalID: 2502626369080856047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0000
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 6232
+        width: 699
+        height: 635
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d87a0c947ab1f600800000000000000
+      internalID: 500386043611740374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0001
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 6232
+        width: 703
+        height: 635
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d2a589fb998a1c0800000000000000
+      internalID: -4492171580128219848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0002
+      rect:
+        serializedVersion: 2
+        x: 3549
+        y: 6248
+        width: 703
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f2936e4879f9590800000000000000
+      internalID: -7665241443707310177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0003
+      rect:
+        serializedVersion: 2
+        x: 4262
+        y: 6248
+        width: 699
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a1fde69bd2b1210800000000000000
+      internalID: 1304686791506205283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0004
+      rect:
+        serializedVersion: 2
+        x: 4971
+        y: 6260
+        width: 699
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0f7dac450eabea0800000000000000
+      internalID: -5856121710656884521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0005
+      rect:
+        serializedVersion: 2
+        x: 5680
+        y: 6260
+        width: 699
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a720b013974894bc0800000000000000
+      internalID: -3798359154661588358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0006
+      rect:
+        serializedVersion: 2
+        x: 6389
+        y: 6241
+        width: 699
+        height: 626
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cf729cab07fa0f0800000000000000
+      internalID: -1103539436141413220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0007
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 6877
+        width: 699
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2703427cc19ce7a00800000000000000
+      internalID: 756262912882126962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0008
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 6877
+        width: 699
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412e9ed26ebe83940800000000000000
+      internalID: 5276226337309843988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0009
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 6877
+        width: 699
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c021032b703f7b50800000000000000
+      internalID: 6593041684920082631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0010
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 6877
+        width: 699
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56958802dd089eb60800000000000000
+      internalID: 7775887918853806437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0011
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 6877
+        width: 699
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b48f4befc265ddf0800000000000000
+      internalID: -156109966928804684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0012
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 6877
+        width: 699
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d25239d5183f5880800000000000000
+      internalID: -8620109495274417452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0013
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 6877
+        width: 699
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ec1da7c8eb5c620800000000000000
+      internalID: 2793848654418529915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0014
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 6877
+        width: 699
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc5d5c04b409d030800000000000000
+      internalID: 3519849755114822848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0015
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 6889
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad82a59405bf9e20800000000000000
+      internalID: 3359602878336634274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0016
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 6889
+        width: 703
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3027e3ad936b9a0800000000000000
+      internalID: -6217718626025077819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0017
+      rect:
+        serializedVersion: 2
+        x: 4258
+        y: 6889
+        width: 703
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ccd70cfc641953b0800000000000000
+      internalID: -5523361009675805495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0018
+      rect:
+        serializedVersion: 2
+        x: 4971
+        y: 6889
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f03eb3d401901c0800000000000000
+      internalID: -4537077225695801451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0019
+      rect:
+        serializedVersion: 2
+        x: 5680
+        y: 6888
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52159e2b93a5df730800000000000000
+      internalID: 4034480045055103269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0020
+      rect:
+        serializedVersion: 2
+        x: 6389
+        y: 6888
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ee6c94a5bed4970800000000000000
+      internalID: 8740901224813358679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0021
+      rect:
+        serializedVersion: 2
+        x: 7098
+        y: 6887
+        width: 699
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3e4be93de60c030800000000000000
+      internalID: 3512929564528796620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0022
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6224
+        width: 699
+        height: 643
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e24adf28ce341a0800000000000000
+      internalID: -6826352562818240990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0023
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6224
+        width: 699
+        height: 643
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300f4b2a87b518b70800000000000000
+      internalID: 8899494912344780803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0024
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6224
+        width: 699
+        height: 643
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c0a1a499658c590800000000000000
+      internalID: -7653772350342951852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0025
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 6225
+        width: 699
+        height: 642
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e38faad0a28c370800000000000000
+      internalID: 8342964547895180826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0026
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 6225
+        width: 699
+        height: 642
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d2ce6cb37fdccf0800000000000000
+      internalID: -230256169813529293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0027
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 6225
+        width: 699
+        height: 642
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0fa2b9ebf26b1650800000000000000
+      internalID: 6204661745730105099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0028
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 6225
+        width: 699
+        height: 642
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7403d663a7969a0800000000000000
+      internalID: -6239321434566408215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair Landing0029
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 6225
+        width: 699
+        height: 642
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d705340c8deea70800000000000000
+      internalID: 8858255837359013121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0000
+      rect:
+        serializedVersion: 2
+        x: 7098
+        y: 6231
+        width: 701
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52fe1b5ebb398ed40800000000000000
+      internalID: 5613899370739134245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0001
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5578
+        width: 703
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a6e58d2124c7750800000000000000
+      internalID: 6303986227118762598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0002
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 5586
+        width: 748
+        height: 628
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009bb9e57b1958d50800000000000000
+      internalID: 6738952634182121728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0003
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 5587
+        width: 699
+        height: 627
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf7ac96f9c278580800000000000000
+      internalID: -8825035881622896695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0004
+      rect:
+        serializedVersion: 2
+        x: 2180
+        y: 5576
+        width: 701
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65541479c7ffbb80800000000000000
+      internalID: -8376704337277856401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0005
+      rect:
+        serializedVersion: 2
+        x: 2891
+        y: 5576
+        width: 701
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38dc23d9bf0945a0800000000000000
+      internalID: -6536676093365266370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0006
+      rect:
+        serializedVersion: 2
+        x: 3602
+        y: 5578
+        width: 739
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ba3634625a52da0800000000000000
+      internalID: -5970184147251778777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0007
+      rect:
+        serializedVersion: 2
+        x: 4351
+        y: 5567
+        width: 699
+        height: 647
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fa5b87d253735b0800000000000000
+      internalID: -5388779959710535807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0008
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 5575
+        width: 728
+        height: 639
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba816ff1708671340800000000000000
+      internalID: 4834447104815798443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0009
+      rect:
+        serializedVersion: 2
+        x: 5798
+        y: 5576
+        width: 699
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f34bf1b1bd74a2c0800000000000000
+      internalID: -4421270732022266890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0010
+      rect:
+        serializedVersion: 2
+        x: 6507
+        y: 5565
+        width: 699
+        height: 649
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea9f8364e860b980800000000000000
+      internalID: -8525198764480161044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0011
+      rect:
+        serializedVersion: 2
+        x: 6507
+        y: 5565
+        width: 699
+        height: 649
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b10a83e4a4a45d0800000000000000
+      internalID: -3077565695536391422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0012
+      rect:
+        serializedVersion: 2
+        x: 7216
+        y: 5573
+        width: 726
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c1a9ef8ae817d40800000000000000
+      internalID: 5580398269765917745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0013
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4907
+        width: 699
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c149b3179e7656bb0800000000000000
+      internalID: -4943430763644480484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0014
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 4915
+        width: 725
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4993c3e8f4b29cc40800000000000000
+      internalID: 5533001237890087316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0015
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 4930
+        width: 699
+        height: 625
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886b00a16deaa0c50800000000000000
+      internalID: 6632305635838965384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0016
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 4921
+        width: 703
+        height: 634
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422fcf037e223a2d0800000000000000
+      internalID: -3268730528186174940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0017
+      rect:
+        serializedVersion: 2
+        x: 2866
+        y: 4924
+        width: 703
+        height: 631
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf60d0d535cef630800000000000000
+      internalID: 3962821557059874760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0018
+      rect:
+        serializedVersion: 2
+        x: 3579
+        y: 4932
+        width: 709
+        height: 623
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0becfadd7f540c510800000000000000
+      internalID: 1567329601203457712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0019
+      rect:
+        serializedVersion: 2
+        x: 4298
+        y: 4921
+        width: 699
+        height: 634
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d568a6f0790f84230800000000000000
+      internalID: 3623410431808931421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0020
+      rect:
+        serializedVersion: 2
+        x: 5007
+        y: 4929
+        width: 710
+        height: 626
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb56dfd4d5965c10800000000000000
+      internalID: 2041984222580071354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0021
+      rect:
+        serializedVersion: 2
+        x: 5727
+        y: 4925
+        width: 699
+        height: 630
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274ae8bfb041337b0800000000000000
+      internalID: -5245827099258870670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0022
+      rect:
+        serializedVersion: 2
+        x: 6436
+        y: 4909
+        width: 699
+        height: 646
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3f8cd3afa7f9770800000000000000
+      internalID: 8619743427007411175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0023
+      rect:
+        serializedVersion: 2
+        x: 6436
+        y: 4909
+        width: 699
+        height: 646
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58fcd93f60596cf10800000000000000
+      internalID: 2289681317654024069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0024
+      rect:
+        serializedVersion: 2
+        x: 7145
+        y: 4917
+        width: 715
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d097370807a5ba0800000000000000
+      internalID: -6099439048324477647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0025
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4250
+        width: 699
+        height: 647
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ef007716eb747f0800000000000000
+      internalID: -628324297177235859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0026
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 4258
+        width: 716
+        height: 639
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9156f1bfef28750800000000000000
+      internalID: 6305882782789081582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0027
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 4259
+        width: 699
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1025cf10c7cd2d00800000000000000
+      internalID: 949634724425703450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0028
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 4251
+        width: 699
+        height: 646
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4631c6703c5e2c0800000000000000
+      internalID: -4402898624039394131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Dancing Beat Hair blowing0029
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 4251
+        width: 699
+        height: 646
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d933416a3a857a2f0800000000000000
+      internalID: -961702535531056227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0000
+      rect:
+        serializedVersion: 2
+        x: 2853
+        y: 4266
+        width: 699
+        height: 631
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6826bf5fa8c2535e0800000000000000
+      internalID: -1930587889914387834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0001
+      rect:
+        serializedVersion: 2
+        x: 3562
+        y: 4266
+        width: 703
+        height: 631
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb2eecd77954d4e0800000000000000
+      internalID: -1957841566656746521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0002
+      rect:
+        serializedVersion: 2
+        x: 4275
+        y: 4261
+        width: 703
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8773377bcca3396a0800000000000000
+      internalID: -6443741990911527048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0003
+      rect:
+        serializedVersion: 2
+        x: 4988
+        y: 4261
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e024ff2f725acee0800000000000000
+      internalID: -1240088041168297755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0004
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 4260
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f516dcd613513e80800000000000000
+      internalID: -8200682088805558800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0005
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 4260
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77e613de38638660800000000000000
+      internalID: 7386862432856500094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0006
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 4260
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dbaa2e621db02ff0800000000000000
+      internalID: -62842507927835692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0007
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 4260
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b622e14628806ae50800000000000000
+      internalID: 6820148041817662059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0008
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 4260
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a2b56e512101200800000000000000
+      internalID: 148638672971573855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0009
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 4260
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052521e639e190a70800000000000000
+      internalID: 8793593365973324368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0010
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 4260
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e860675648a7630b0800000000000000
+      internalID: -5749273165235353970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0011
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 4260
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da31b6a62eee0610800000000000000
+      internalID: 1589469568281164498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0012
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 4260
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717311096a490a7a0800000000000000
+      internalID: -6367926429999352041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0013
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 4260
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d959100fe1b0c2d0800000000000000
+      internalID: -3260410490159277615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0014
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 4260
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1195ea7129cd1370800000000000000
+      internalID: 8295007234319290650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0015
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 4260
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b955e84ea10ae7280800000000000000
+      internalID: -9043614964349250149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0016
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 4260
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0a98fae4f0e02e0800000000000000
+      internalID: -2157770340836990786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0017
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 4260
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213deab4bf83f97f0800000000000000
+      internalID: -603701173086661870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0018
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 4260
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a3f04a8b526bce0800000000000000
+      internalID: -1389881960040547712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Down Note0019
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 4260
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b896f761dc01680800000000000000
+      internalID: -8786297376489239807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF FEAR 0000
+      rect:
+        serializedVersion: 2
+        x: 6406
+        y: 4257
+        width: 699
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8733ef7a6d4a79b30800000000000000
+      internalID: 4294082011569468280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF FEAR 0001
+      rect:
+        serializedVersion: 2
+        x: 7115
+        y: 4257
+        width: 699
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2183be41a1f0ff120800000000000000
+      internalID: 2449693327007365138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF FEAR 0002
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3602
+        width: 699
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23eaf699c7180e50800000000000000
+      internalID: 6775691793967801134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF FEAR 0003
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 3600
+        width: 699
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f4459ebbb1e6120800000000000000
+      internalID: 2408893344577245080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Right Note0000
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 3608
+        width: 699
+        height: 632
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91134ed7d65f3f9e0800000000000000
+      internalID: -1588656392919305959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Right Note0001
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 3608
+        width: 703
+        height: 632
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eddeb20c829510ea0800000000000000
+      internalID: -5908343204575711778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Right Note0002
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 3603
+        width: 703
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec2556249543a6d0800000000000000
+      internalID: -2980462025788543770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Right Note0003
+      rect:
+        serializedVersion: 2
+        x: 3553
+        y: 3603
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f3c69d3e15969e0800000000000000
+      internalID: -1627679751270547635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Right Note0004
+      rect:
+        serializedVersion: 2
+        x: 4262
+        y: 3603
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633fed356afcaea00800000000000000
+      internalID: 786669398208213814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Right Note0005
+      rect:
+        serializedVersion: 2
+        x: 4971
+        y: 3603
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e2df03e0cfe0700800000000000000
+      internalID: 508620945821085195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Right Note0006
+      rect:
+        serializedVersion: 2
+        x: 5680
+        y: 3603
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e6e50f2f230b1f0800000000000000
+      internalID: -1031268295671648665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Right Note0007
+      rect:
+        serializedVersion: 2
+        x: 5680
+        y: 3603
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542b4eb5d58495b20800000000000000
+      internalID: 3123607382369022533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Right Note0008
+      rect:
+        serializedVersion: 2
+        x: 6389
+        y: 3603
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0f676a73adb0310800000000000000
+      internalID: 1372430444015317240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Right Note0009
+      rect:
+        serializedVersion: 2
+        x: 6389
+        y: 3603
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ea74308b8119bb0800000000000000
+      internalID: -4931132938385904034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Right Note0010
+      rect:
+        serializedVersion: 2
+        x: 6389
+        y: 3603
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77db68415cc479710800000000000000
+      internalID: 1699911793692294519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Right Note0011
+      rect:
+        serializedVersion: 2
+        x: 6389
+        y: 3603
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5327d583ba9bd90800000000000000
+      internalID: -7081440680489110082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Right Note0012
+      rect:
+        serializedVersion: 2
+        x: 6389
+        y: 3603
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2769a69dbeaa700800000000000000
+      internalID: 552513223334982321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Right Note0013
+      rect:
+        serializedVersion: 2
+        x: 6389
+        y: 3603
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52653615df232ba0800000000000000
+      internalID: -6114991276791864741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Right Note0014
+      rect:
+        serializedVersion: 2
+        x: 6389
+        y: 3603
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f7236223ef68b00800000000000000
+      internalID: 830630672639098713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Up Note0000
+      rect:
+        serializedVersion: 2
+        x: 7098
+        y: 3579
+        width: 699
+        height: 661
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0822c4e79b396e0800000000000000
+      internalID: -1831916671315312466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Up Note0001
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2908
+        width: 703
+        height: 661
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2714e7a078d509820800000000000000
+      internalID: 2922938992741466482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Up Note0002
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 2908
+        width: 703
+        height: 661
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c365d1c8856bf3050800000000000000
+      internalID: 5782540937991116348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Up Note0003
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 2908
+        width: 699
+        height: 661
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f55f4b7a3242bf30800000000000000
+      internalID: 4589803789188290038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Up Note0004
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 2908
+        width: 699
+        height: 661
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadc09feadee57b00800000000000000
+      internalID: 825828730781879724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Up Note0005
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 2908
+        width: 699
+        height: 661
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68eb3d726cbcb1310800000000000000
+      internalID: 1376918163023969926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF Up Note0006
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 2908
+        width: 699
+        height: 661
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea02c4c97ed17f1a0800000000000000
+      internalID: -6775914233758736210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF left note0000
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 2936
+        width: 699
+        height: 633
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda0b16b54ff7eca0800000000000000
+      internalID: -5987536504692733219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF left note0001
+      rect:
+        serializedVersion: 2
+        x: 3553
+        y: 2938
+        width: 703
+        height: 631
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22deea785523b720800000000000000
+      internalID: 2860671250260218411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF left note0002
+      rect:
+        serializedVersion: 2
+        x: 4266
+        y: 2931
+        width: 703
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0f9cab95cc24f70800000000000000
+      internalID: 9170116477037703339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF left note0003
+      rect:
+        serializedVersion: 2
+        x: 4979
+        y: 2931
+        width: 699
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5f1658a83797470800000000000000
+      internalID: 8392866419362100648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF left note0004
+      rect:
+        serializedVersion: 2
+        x: 5688
+        y: 2931
+        width: 699
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e009c36aa61913c90800000000000000
+      internalID: -7191807242692423666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF left note0005
+      rect:
+        serializedVersion: 2
+        x: 6397
+        y: 2931
+        width: 699
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4002120159ff2020800000000000000
+      internalID: 2319346459441496142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF left note0006
+      rect:
+        serializedVersion: 2
+        x: 7106
+        y: 2932
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d289e314701ad180800000000000000
+      internalID: -9089934807157603628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF left note0007
+      rect:
+        serializedVersion: 2
+        x: 7106
+        y: 2932
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04f1902d13c0b9e0800000000000000
+      internalID: -1607570537103363062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF left note0008
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2261
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0207dfabb180b9b0800000000000000
+      internalID: -5066406937682836980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF left note0009
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2261
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32eb34f9074ae9fd0800000000000000
+      internalID: -2333246753316028893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF left note0010
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2261
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d989fac0cc6796d0800000000000000
+      internalID: -2983796652814792234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF left note0011
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2261
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a204e561c01375d60800000000000000
+      internalID: 7878820001092616234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF left note0012
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2261
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ee2be2a72bba860800000000000000
+      internalID: 7542318238801260107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF left note0013
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2261
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96bef2b2b647b7960800000000000000
+      internalID: 7600796799752727401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GF left note0014
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2261
+        width: 699
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211b01976309e5230800000000000000
+      internalID: 3629496913340969234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0000
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 2265
+        width: 699
+        height: 633
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c9def0147257b50800000000000000
+      internalID: 6590216790120176737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0001
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 2265
+        width: 699
+        height: 633
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2a8f3e7227530c0800000000000000
+      internalID: -4596642329007709451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0002
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d3b4a8be785d7a0800000000000000
+      internalID: -6353022253628965603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0003
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c250739db5bcf5fb0800000000000000
+      internalID: -4656779894331079380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0004
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c62a095c23c7f2a0800000000000000
+      internalID: -6703674925077879095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0005
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d81b37dfb9b5740800000000000000
+      internalID: 5141874912443600223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0006
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f878f5cf5d42e6d0800000000000000
+      internalID: -2962720531117737737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0007
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64de9392d3e2ac70800000000000000
+      internalID: 8980991100489487467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0008
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8113421e1e420fff0800000000000000
+      internalID: -4463047063883496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0009
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d3c4bef02c925b0800000000000000
+      internalID: -5392565705171518072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0010
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe7d92c38ad7a160800000000000000
+      internalID: 7036833202230361790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0011
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdcbbd027e05ef1c0800000000000000
+      internalID: -4468044826686014245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0012
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6236b5ec82b005ac0800000000000000
+      internalID: -3868579810022563034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0013
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab031184b9832230800000000000000
+      internalID: 3612882734433897378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0014
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ee3e82ac7c0a3a0800000000000000
+      internalID: -6656100578170245483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0015
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c09aceaaf46eec20800000000000000
+      internalID: 3237636209963077824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0016
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c0de1f20e0255b0800000000000000
+      internalID: -5381223198942753674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0017
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba19bb874a6b8e3a0800000000000000
+      internalID: -6635853233413975637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0018
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b146ed0d0f5a660800000000000000
+      internalID: 7396582742900874108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0019
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dfa263790e0e7520800000000000000
+      internalID: 2701612260222218200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0020
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1029f3163b554f290800000000000000
+      internalID: -7857561220935609855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0021
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769b723d067e39520800000000000000
+      internalID: 2707762204025272679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0022
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6085070921a7d580800000000000000
+      internalID: -8802389749088812947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0023
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1770fff818cd820800000000000000
+      internalID: 2944370711852446196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0024
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6816e11916f82670800000000000000
+      internalID: 8514325683078830186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0025
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a46b518242a21310800000000000000
+      internalID: 1374339242823214248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0026
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6dea359ae11ddb0800000000000000
+      internalID: -4768996817806371130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0027
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12ea30b2c18d2a30800000000000000
+      internalID: 4192149501332087327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0028
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d720144da3abe6fc0800000000000000
+      internalID: -3499655098588396931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0029
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449863cae6c83f340800000000000000
+      internalID: 4896411626845407556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0030
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327cd5ea0f2b9bd10800000000000000
+      internalID: 2141939844578658083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0031
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96eecdd5f2276f220800000000000000
+      internalID: 2519326589324160617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0032
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef48af576c2e9110800000000000000
+      internalID: 1269500967463178222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0033
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911c93146d1dc9c60800000000000000
+      internalID: 7826360970610589977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0034
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd156439f08ea6c0800000000000000
+      internalID: -4130222000437912121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0035
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b438083767bd7a10800000000000000
+      internalID: 1908883471024534708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0036
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502c57b7f6b8268b0800000000000000
+      internalID: -5160408912084221435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0037
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74eda53be0e0c92d0800000000000000
+      internalID: -3270723773076414905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0038
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0290bb62b3dc52960800000000000000
+      internalID: 7576687602057283872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0039
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb57d19bfd19ef30800000000000000
+      internalID: 4605245060283849671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0040
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51aab29796d9c150800000000000000
+      internalID: 5893477533881114973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0041
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6803e3ce0d1038dc0800000000000000
+      internalID: -3638062077156904826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0042
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b09975a2781a010800000000000000
+      internalID: 1198387591785286412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0043
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae3528c7fbf393e0800000000000000
+      internalID: -2048016363890065752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0044
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b361da916e0a64440800000000000000
+      internalID: 4919796553082541627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0045
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b2ab84d0dbfcb00800000000000000
+      internalID: 851106719348697861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0046
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513ba471dc3bd16b0800000000000000
+      internalID: -5323901491041619179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0047
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2b2d6c892b81620800000000000000
+      internalID: 2745140342122787539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0048
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1bb5064820813ca0800000000000000
+      internalID: -6038904714865296612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0049
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068313f1f08c35e50800000000000000
+      internalID: 6796996229905594464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0050
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17eeb4b9ff8901f80800000000000000
+      internalID: -8137836303068959119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0051
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5e9c59f70e83d00800000000000000
+      internalID: 952758159767365085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0052
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d42b62149520d500800000000000000
+      internalID: 418876083239855314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0053
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e68489d5cbc5c610800000000000000
+      internalID: 1640941689864750819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0054
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536601cc4c7811d30800000000000000
+      internalID: 4400447590224651829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0055
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7aab88c632d0240800000000000000
+      internalID: 4759499330257856474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0056
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4a6f22883e4d5a0800000000000000
+      internalID: -6497318188547136350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0057
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f815c7e34c79770800000000000000
+      internalID: 8617572184649469770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0058
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbe1d17b8acbf100800000000000000
+      internalID: 142930513451150289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0059
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468a1796218ca87d0800000000000000
+      internalID: -2915297827364951964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0060
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f54b3eb05e43850800000000000000
+      internalID: 6355956813354262276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0061
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc0cddfeb3b486e0800000000000000
+      internalID: -1836145115176104707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0062
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6be96c5a6771230800000000000000
+      internalID: 3609484080734713554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0063
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59ef3b6acee9bf30800000000000000
+      internalID: 4591963848231086431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0064
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dca6d20835edbdb0800000000000000
+      internalID: -4774408001214305063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0065
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b433bd5b0b371dba0800000000000000
+      internalID: -6065940020288867509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0066
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89eb091f6283ef0e0800000000000000
+      internalID: -2234286625216479592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0067
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84daeef00579f9d80800000000000000
+      internalID: -8241702422944240312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0068
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7cb68db73feaac0800000000000000
+      internalID: -3841865718862985275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0069
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb8df83f256dffa0800000000000000
+      internalID: -5765340694470358030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0070
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91accf1e922254f0800000000000000
+      internalID: -841572117831179876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0071
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646a67a046220f050800000000000000
+      internalID: 5832199330512414278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0072
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa3307c18193e8f0800000000000000
+      internalID: -512405946014418184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0073
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e0d44d7881b5ba0800000000000000
+      internalID: -6099254298681733559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0074
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89c02a84a680e8e0800000000000000
+      internalID: -1666183820876920436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0075
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42949f5acd9891b30800000000000000
+      internalID: 4258586503425902884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0076
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce3085af9d753060800000000000000
+      internalID: 6932585326036664003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0077
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0493c31e963d4b0800000000000000
+      internalID: -5416869510697631535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0078
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ca5caa1961c55a0800000000000000
+      internalID: -6531320544702911349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gf sad0079
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2262
+        width: 699
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223a797f92d45aa70800000000000000
+      internalID: 8837554686427374370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
