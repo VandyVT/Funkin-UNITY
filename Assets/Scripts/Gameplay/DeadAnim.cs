@@ -12,7 +12,7 @@ public class DeadAnim : MonoBehaviour
     public AudioSource musicSource;
      float firstBeatOffset;
 
-    public int myVar = 0;
+    public int myVar = 0; //Gets the int value for BobInt, which assigns it's value on the songPositionInBeats float
     public int BobInt;
 
     void Start()
