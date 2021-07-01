@@ -4803,10 +4803,13 @@ MonoBehaviour:
   - {fileID: 1694977252}
   insts: {fileID: 1368615387}
   vocals: {fileID: 529553639}
+  m_GFVar: 0
+  GFBobRate: 0
   bpm: 0
   notes: []
   nextIndex: 0
   Player: {fileID: 1862719242}
+  Girlfriend: {fileID: 1322929837}
 --- !u!4 &2108511405
 Transform:
   m_ObjectHideFlags: 0
