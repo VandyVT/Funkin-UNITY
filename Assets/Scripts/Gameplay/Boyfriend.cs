@@ -19,7 +19,7 @@ public class Boyfriend : MonoBehaviour
     private void Update() {
         myVar = mc.BobInt;
         
-        if (m_MyVar < myVar && this.anim.GetCurrentAnimatorStateInfo(0).IsName("Player_Idle"))
+        if (m_MyVar < myVar && this.anim.GetCurrentAnimatorStateInfo(0).IsName("BF idle dance"))
         {
             PlayIdle();
             m_MyVar = myVar;
@@ -27,16 +27,22 @@ public class Boyfriend : MonoBehaviour
 
         if (Healthbar.value >= 0 && PlayerDead == false)
         {
-            anim.Play("Player_Dead", -1, 0f);
+            anim.Play("BF Dead Loop");
+            anim.transform.localPosition = new Vector3(0f, -1f, 0f);
             PlayerDead = true;
             DyingSource.clip = DyingSounds[0];
+            DyingSource.Play();
+        }
+        if(PlayerDead && !DyingSource.isPlaying)
+        {
+            DyingSource.clip = DyingSounds[1];
             DyingSource.Play();
         }
     }
 
     void PlayIdle()
     {
-        anim.Play("Player_Idle", -1, 0f);
+        anim.Play("BF idle dance", -1, 0f);
         Handle.Play("HandleBump", -1, 0f);
     }
 }

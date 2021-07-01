@@ -9,6 +9,8 @@ public class MusicConduct : MonoBehaviour
     public static MusicConduct Instance;
     [Header("Technical Info")]
     public float songBpm;
+    public bool started;
+    private bool startedMusic;
     public float secPerBeat;
     public float songPosition;
     public float songPositionInBeats;
@@ -19,9 +21,12 @@ public class MusicConduct : MonoBehaviour
     [SerializeField] private AudioSource voiceSource;
     public GameObject Note;
     public Slider Healthbar;
-    public Image BF_Canvas;
+    public Image BF_Canvas; 
+    public Animator BF_Anim;
     public Sprite[] Boyfriend;
     public GameObject[] DisableOnDeath;
+    public AudioSource insts;
+    public AudioSource vocals;
 
     [Header("Song Info")]
     public float bpm;
@@ -47,6 +52,13 @@ public class MusicConduct : MonoBehaviour
     
     void Update()
     {
+        if(started && !startedMusic)
+        {
+            insts.Play();
+            vocals.Play();
+            startedMusic = true;
+            dspSongTime = (float)AudioSettings.dspTime;
+        }
         if (Input.GetKeyDown(KeyCode.R))
         {
             Healthbar.value = 0;
