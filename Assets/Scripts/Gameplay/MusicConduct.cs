@@ -27,14 +27,18 @@ public class MusicConduct : MonoBehaviour
     public GameObject[] DisableOnDeath;
     public AudioSource insts;
     public AudioSource vocals;
+    
+    public float m_GFVar = 0;
+    public float GFBobRate;
 
     [Header("Song Info")]
     public float bpm;
     public float[] notes;
     public int nextIndex = 0;
 
-    //The animator controller to the player
+    [Header("Characters")]
     public Animator Player;
+    public Animator Girlfriend;
 
     private void Awake() {
         if(Instance != null) return;
@@ -45,6 +49,7 @@ public class MusicConduct : MonoBehaviour
         //Number of seconds in each beat
         secPerBeat = 60f / songBpm;
         bpm = songBpm;
+        m_GFVar = BobInt;
 
         //Record the time when the music starts
         dspSongTime = (float)AudioSettings.dspTime;
@@ -64,7 +69,7 @@ public class MusicConduct : MonoBehaviour
             Healthbar.value = 0;
         }
             //Change UI character images based on health value
-            if (Healthbar.value > -21)
+        if (Healthbar.value > -21)
         {
             BF_Canvas.GetComponent<Image>().sprite = Boyfriend [1];
         }
@@ -105,5 +110,11 @@ public class MusicConduct : MonoBehaviour
             //initialize the fields of the music note
             nextIndex++;
         }
+
+        if (m_GFVar < BobInt && Girlfriend.GetCurrentAnimatorStateInfo(0).IsName("GF_Dance")) 
+        {
+            Girlfriend.speed = GFBobRate;
+            m_GFVar = BobInt;
+        } 
     }
 }
