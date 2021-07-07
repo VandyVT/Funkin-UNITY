@@ -9,6 +9,11 @@ public class Countdown : MonoBehaviour
 
     private void Start()
     {
+        Invoke("Begin", 0.5f);
+    }
+
+    void Begin()
+    {
         conduct.started = false;
         audioSource.clip = clips[0];
         audioSource.Play();

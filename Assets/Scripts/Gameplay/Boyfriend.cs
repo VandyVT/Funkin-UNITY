@@ -28,7 +28,7 @@ public class Boyfriend : MonoBehaviour
         if (Healthbar.value >= 0 && PlayerDead == false)
         {
             anim.Play("BF Dead Loop");
-            anim.transform.localPosition = new Vector3(0f, -1f, 0f);
+            //anim.transform.localPosition = new Vector3(0f, -1f, 0f);
             PlayerDead = true;
             DyingSource.clip = DyingSounds[0];
             DyingSource.Play();
