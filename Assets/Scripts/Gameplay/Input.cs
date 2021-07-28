@@ -2,12 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum InputAction : int
+{
+    Left = 0,
+    Down = 1,
+    Up = 2,
+    Right = 3
+}
 public static class InputManager
 {
     private static KeyCode Up = KeyCode.J;
     private static KeyCode Down = KeyCode.F;
     private static KeyCode Left = KeyCode.D;
     private static KeyCode Right = KeyCode.K;
+
     public static bool[] HoldArray
     {
         get{

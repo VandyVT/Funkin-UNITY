@@ -5,48 +5,91 @@ using UnityEngine.UI;
 
 public class ArrowControl : MonoBehaviour
 {
-    [HeaderAttribute("Arrow Type")]
+    [Header("Arrow Type")]
     [Header("0 = Left | 1 = Down | 2 = Up | 3 = Right")]
     [Range(0, 3)]
     public int ArrowTypeSelect;
 
-    [HeaderAttribute("Arrow Length")]
-    [Range(0, 9999)]
-    public int SliderLength;
+    [Header("Must Hit Note")]
+    public bool MustHit;
 
-    [HeaderAttribute("Arrow Speed")]
-    public int ArrowSpeed;
+    [Header("At Strum")]
+    public bool AtStrum;
+
+    [Header("Too Late")]
+    public bool tooLate;
+
+    [Header("Was Good Hit")]
+    public bool wasGoodHit;
+
+    [Header("Is Sustain Note")]
+    public bool isSustainNote;
+
+    [Header("Note Length")]
+    [Range(0, 9999)]
+    public float sustainLength;
+
+    [Header("Scroll Speed")]
+    public float scrollSpeed;
+
+    [Header("Strum Time")]
+    public float strumTime;
 
     public Sprite[] ArrowTypeSprites;
-    float beatTempo;
-    GameObject ConductOBJ;
 
+    GameObject ConductOBJ;
+    GameObject Strum;
+    public void Initialize(NoteData data)
+    {
+        ArrowTypeSelect = data.type % 3;
+        sustainLength = data.length;
+        strumTime = data.strumTime;
+        MustHit = data.section.mustHitSection;
+    }
     void Start()
     {
-        switch (ArrowTypeSelect)
+        if (MustHit)
         {
-            case 0: GetComponent<Image>().sprite = ArrowTypeSprites[0];
-                break;
-            case 1:
-                GetComponent<Image>().sprite = ArrowTypeSprites[1];
-                break;
-            case 2:
-                GetComponent<Image>().sprite = ArrowTypeSprites[2];
-                break;
-            case 3:
-                GetComponent<Image>().sprite = ArrowTypeSprites[3];
-                break;
-            default:
-                print("Incorrect Arrow Type Selection");
-                break;
+            Strum = StrumHolder.instance.playerStrums.objs[ArrowTypeSelect];
         }
+        else
+        {
+            Strum = StrumHolder.instance.enemyStrums.objs[ArrowTypeSelect];
+        }
+        transform.SetParent(Strum.transform, false);
+        GetComponent<Image>().sprite = ArrowTypeSprites[ArrowTypeSelect];
         ConductOBJ = GameObject.Find("Conductor");
-        beatTempo = ConductOBJ.GetComponent<MusicConduct>().songBpm;
-        beatTempo = beatTempo / 0.37f;
     }
     
     void Update()
     {
-        transform.position += new Vector3(0f, beatTempo * Time.deltaTime, 0f);
+        transform.localPosition = new Vector3(0, 0.45f + (ConductOBJ.GetComponent<MusicConduct>().songPosition - strumTime) * scrollSpeed/2f, 0f);
+        if(MustHit)
+        {
+            if (isSustainNote)
+            {
+                if (strumTime > MusicConduct.Instance.songPosition - (MusicConduct.Instance.safeZoneOffset * 1.5)
+                    && strumTime < MusicConduct.Instance.songPosition + (MusicConduct.Instance.safeZoneOffset * 0.5))
+                    AtStrum = true;
+                else
+                    AtStrum = false;
+            }
+            else
+            {
+                if (strumTime > MusicConduct.Instance.songPosition - MusicConduct.Instance.safeZoneOffset
+                    && strumTime < MusicConduct.Instance.songPosition + MusicConduct.Instance.safeZoneOffset)
+                    AtStrum = true;
+                else
+                    AtStrum = false;
+            }
+
+            if (strumTime < MusicConduct.Instance.songPosition - MusicConduct.Instance.safeZoneOffset * MusicConduct.Instance.timeScale && !wasGoodHit)
+                tooLate = true;
+        }
+        else
+        {
+            if (strumTime <= MusicConduct.Instance.songPosition)
+                AtStrum = true;
+        }
     }
 }

@@ -1,5 +1,8 @@
-﻿using System.Collections;
+﻿using Newtonsoft.Json;
+using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,6 +17,9 @@ public class MusicConduct : MonoBehaviour
     public float secPerBeat;
     public float songPosition;
     public float songPositionInBeats;
+    public float safeZoneOffset;
+    public float safeFrames = 10;
+    public float timeScale;
     float dspSongTime;
     [SerializeField] private float firstBeatOffset;
     public int BobInt;
@@ -32,13 +38,17 @@ public class MusicConduct : MonoBehaviour
     public float GFBobRate;
 
     [Header("Song Info")]
+    public string songName = "Bopeebo";
+    public string songDiff = "-hard";
     public float bpm;
-    public float[] notes;
     public int nextIndex = 0;
+    public SongData map;
+    public List<NoteData> notes;
 
     [Header("Characters")]
     public Animator Player;
     public Animator Girlfriend;
+
 
     private void Awake() {
         if(Instance != null) return;
@@ -46,7 +56,20 @@ public class MusicConduct : MonoBehaviour
     }
     void Start()
     {
+        if (File.Exists(Path.Combine(Application.dataPath, "Maps", songName.ToLower(), songName.ToLower() + songDiff + ".json")))
+        {
+            map = SongData.LoadSong(Path.Combine(Application.dataPath, "Maps", songName.ToLower(), songName.ToLower() + songDiff + ".json")).song;
+        }
+        else
+        {
+            map = JsonConvert.DeserializeObject<SongData.Root>(PresetMapGrabber.GetMap(songName, songDiff)).song;
+        }
+        notes = map.Notes.SelectMany((SectionData a) => a.notes).ToList();
+        notes.Sort((x, y) => x.strumTime.CompareTo(y.strumTime));
+        Spawner.instance.SpawnAllNotes(notes);
         //Number of seconds in each beat
+        safeZoneOffset = Mathf.Floor(safeFrames / 60 * 1000);
+        timeScale = safeZoneOffset / 166;
         secPerBeat = 60f / songBpm;
         bpm = songBpm;
         m_GFVar = BobInt;
@@ -57,6 +80,7 @@ public class MusicConduct : MonoBehaviour
     
     void Update()
     {
+        if (!started) return;
         if(started && !startedMusic)
         {
             insts.Play();
@@ -93,7 +117,7 @@ public class MusicConduct : MonoBehaviour
         }
 
         //determine how many seconds since the song started
-        songPosition = (float)(AudioSettings.dspTime - dspSongTime - firstBeatOffset);
+        songPosition = (float)(AudioSettings.dspTime - dspSongTime - firstBeatOffset) * 1000f;
 
         //Sync voices & music
         if (musicSource.isPlaying && voiceSource.isPlaying)
@@ -104,12 +128,6 @@ public class MusicConduct : MonoBehaviour
         //determine how many beats since the song started
         songPositionInBeats = songPosition / secPerBeat;
         BobInt = (int)songPositionInBeats;
-        if (nextIndex < notes.Length && notes[nextIndex] < songPositionInBeats)
-        {
-            Instantiate(Note);
-            //initialize the fields of the music note
-            nextIndex++;
-        }
 
         if (m_GFVar < BobInt && Girlfriend.GetCurrentAnimatorStateInfo(0).IsName("GF_Dance")) 
         {

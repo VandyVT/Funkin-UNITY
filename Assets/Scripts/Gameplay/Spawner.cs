@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private NotePool pool;
+    public static Spawner instance;
+    private void Start()
     {
-        
+        instance = this;
+        pool = GetComponent<NotePool>();
     }
-
-    // Update is called once per frame
-    void Update()
+    public void SpawnAllNotes(List<NoteData> datas)
     {
-        
+        for (int i = 0; i < datas.Count; i++)
+        {
+            ArrowControl arrowControl = pool.Grab(datas[i]);
+            NoteInputManager.allNotes.Add(arrowControl);
+        }
     }
 }

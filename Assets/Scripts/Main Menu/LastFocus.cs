@@ -5,22 +5,35 @@ using UnityEngine.EventSystems;
 
 public class LastFocus : MonoBehaviour
 {
-    GameObject lastselect;
+    public int curSelected;
+    public GameObject[] Objects;
+    public bool[] lastInput = new bool[] { false, false, false, false };
     void Start()
     {
-        lastselect = new GameObject();
     }
 
 
     void Update()
     {
-        if (EventSystem.current.currentSelectedGameObject == null)
+        //if (lastInput == InputManager.PressArray) return;
+        //lastInput = InputManager.PressArray;
+        //too lazy too actually do this right LOL
+        if (InputManager.PressArray[(int)InputAction.Down])
         {
-            EventSystem.current.SetSelectedGameObject(lastselect);
+            curSelected++;
         }
-        else
+        if (InputManager.PressArray[(int)InputAction.Up])
         {
-            lastselect = EventSystem.current.currentSelectedGameObject;
+            curSelected--;
+        }
+        if (curSelected > Objects.Length - 1)
+            curSelected = 0;
+        if (curSelected < 0)
+            curSelected = Objects.Length-1;
+
+        for (int i = 0; i < Objects.Length; i++)
+        {
+            Objects[curSelected].GetComponent<Animator>().SetBool("Selected", i == curSelected);
         }
     }
 }

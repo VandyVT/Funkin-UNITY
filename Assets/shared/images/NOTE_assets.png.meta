@@ -15,14 +15,14 @@ TextureImporter:
       213: 1547569154171702058
     second: arrowUP0000
   - first:
-      213: 1824822043487155560
-    second: blue0000
+      213: 5418567698423343750
+    second: blue alone0000
   - first:
-      213: -2066954860714771565
-    second: blue hold end0000
+      213: 999825085370751991
+    second: blue hold0000
   - first:
-      213: -3841556995173767592
-    second: blue hold piece0000
+      213: -5447035912994877045
+    second: blue tail0000
   - first:
       213: 5408995474047558851
     second: down confirm0000
@@ -48,14 +48,14 @@ TextureImporter:
       213: 751753785713546454
     second: down press0003
   - first:
-      213: 8615510262971104387
-    second: green0000
+      213: -6565430571111745548
+    second: green alone0000
   - first:
-      213: 3458565835667774420
-    second: green hold end0000
+      213: 4490906975919615528
+    second: green hold0000
   - first:
-      213: -8504011339492585122
-    second: green hold piece0000
+      213: -8513927511299694727
+    second: green tail0000
   - first:
       213: 876135952401328826
     second: left confirm0000
@@ -81,23 +81,71 @@ TextureImporter:
       213: -2224774061475908127
     second: left press0003
   - first:
-      213: 5476314389310244637
-    second: pruple end hold0000
+      213: 6306130961421746070
+    second: left press0004
   - first:
-      213: 5291215657081443887
-    second: purple0000
+      213: 2917660838997309883
+    second: left press0005
   - first:
-      213: 7915236995408343009
-    second: purple hold piece0000
+      213: -2206732200612609473
+    second: left press0006
   - first:
-      213: 8365481008000312667
-    second: red0000
+      213: 1565567665379953435
+    second: left press0007
   - first:
-      213: -219032890078877677
-    second: red hold end0000
+      213: -2452411540943257563
+    second: left press0008
   - first:
-      213: 5260924380915024420
-    second: red hold piece0000
+      213: -5772097420236299434
+    second: left press0009
+  - first:
+      213: 8042911037464853219
+    second: left press0010
+  - first:
+      213: -3317240285253007294
+    second: left press0011
+  - first:
+      213: 5573170400629407873
+    second: left press0012
+  - first:
+      213: 5797852246561251340
+    second: left press0013
+  - first:
+      213: -2801392446634778935
+    second: left press0014
+  - first:
+      213: 7894580741920687190
+    second: left press0015
+  - first:
+      213: -5601092536215620481
+    second: left press0016
+  - first:
+      213: -3693385514044806115
+    second: left press0017
+  - first:
+      213: -11094507459229405
+    second: left press0018
+  - first:
+      213: -3337007985483735639
+    second: left press0019
+  - first:
+      213: 4086669275186251931
+    second: purple alone0000
+  - first:
+      213: -5789592216442940531
+    second: purple hold0000
+  - first:
+      213: 6845850596718815291
+    second: purple tail0000
+  - first:
+      213: 8268197350894402270
+    second: red alone0000
+  - first:
+      213: 1882245811173890186
+    second: red hold0000
+  - first:
+      213: 5754214870071842112
+    second: red tail0000
   - first:
       213: -1277368419735039428
     second: right confirm0000
@@ -122,6 +170,75 @@ TextureImporter:
   - first:
       213: 1590409466902585563
     second: right press0003
+  - first:
+      213: -5362029864999250432
+    second: right press0004
+  - first:
+      213: -6648205306798748715
+    second: right press0005
+  - first:
+      213: 5774639097817930000
+    second: right press0006
+  - first:
+      213: 8540330970181383794
+    second: right press0007
+  - first:
+      213: 8743629619657034396
+    second: right press0008
+  - first:
+      213: 8380215195938245411
+    second: right press0009
+  - first:
+      213: 6717797910409029328
+    second: right press0010
+  - first:
+      213: -4660274049321999218
+    second: right press0011
+  - first:
+      213: 4094890139338434226
+    second: right press0012
+  - first:
+      213: 294483379997093132
+    second: right press0013
+  - first:
+      213: 4094940072768409835
+    second: right press0014
+  - first:
+      213: -4835767543657430231
+    second: right press0015
+  - first:
+      213: 1008109125071608186
+    second: right press0016
+  - first:
+      213: -1054345325526010149
+    second: right press0017
+  - first:
+      213: -6317387038898039249
+    second: right press0018
+  - first:
+      213: -1353409335134022881
+    second: right press0019
+  - first:
+      213: 524519553762834797
+    second: right press0020
+  - first:
+      213: -825449317713738098
+    second: right press0021
+  - first:
+      213: 2659894086251373742
+    second: right press0022
+  - first:
+      213: 3239627342991350796
+    second: right press0023
+  - first:
+      213: 5713107302898955916
+    second: right press0024
+  - first:
+      213: -7829653786961550850
+    second: right press0025
+  - first:
+      213: 3350179832129133484
+    second: right press0026
   - first:
       213: -1748830736503855484
     second: up confirm0000
@@ -222,12 +339,12 @@ TextureImporter:
       name: arrowDOWN0000
       rect:
         serializedVersion: 2
-        x: 0
-        y: 636
+        x: 10
+        y: 615
         width: 157
-        height: 153
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 154
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -243,12 +360,12 @@ TextureImporter:
       name: arrowLEFT0000
       rect:
         serializedVersion: 2
-        x: 310
-        y: 632
-        width: 153
+        x: 672
+        y: 451
+        width: 154
         height: 157
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -264,12 +381,12 @@ TextureImporter:
       name: arrowRIGHT0000
       rect:
         serializedVersion: 2
-        x: 157
-        y: 632
-        width: 153
+        x: 10
+        y: 448
+        width: 154
         height: 157
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -285,12 +402,12 @@ TextureImporter:
       name: arrowUP0000
       rect:
         serializedVersion: 2
-        x: 784
-        y: 639
+        x: 177
+        y: 615
         width: 157
-        height: 153
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 154
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -303,64 +420,64 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blue0000
+      name: blue alone0000
       rect:
         serializedVersion: 2
-        x: 1850
-        y: 716
+        x: 506
+        y: 618
         width: 157
         height: 154
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 865ba50faf1135910800000000000000
-      internalID: 1824822043487155560
+      spriteID: 68aede7ec9e923b40800000000000000
+      internalID: 5418567698423343750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blue hold end0000
+      name: blue hold0000
       rect:
         serializedVersion: 2
-        x: 1170
-        y: 513
-        width: 50
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39b34506183b053e0800000000000000
-      internalID: -2066954860714771565
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: blue hold piece0000
-      rect:
-        serializedVersion: 2
-        x: 1370
-        y: 531
+        x: 1940
+        y: 674
         width: 50
         height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 856204e244c00bac0800000000000000
-      internalID: -3841556995173767592
+      spriteID: 7fb5c0b2e9710ed00800000000000000
+      internalID: 999825085370751991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue tail0000
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 950
+        width: 50
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81152f52bd3864b0800000000000000
+      internalID: -5447035912994877045
       vertices: []
       indices: 
       edges: []
@@ -369,12 +486,12 @@ TextureImporter:
       name: down confirm0000
       rect:
         serializedVersion: 2
-        x: 0
-        y: 789
+        x: 10
+        y: 779
         width: 238
         height: 235
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -390,12 +507,12 @@ TextureImporter:
       name: down confirm0001
       rect:
         serializedVersion: 2
-        x: 238
-        y: 789
+        x: 258
+        y: 779
         width: 238
         height: 235
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -411,12 +528,12 @@ TextureImporter:
       name: down confirm0002
       rect:
         serializedVersion: 2
-        x: 1176
-        y: 586
-        width: 219
-        height: 208
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1236
+        y: 557
+        width: 220
+        height: 217
+      alignment: 9
+      pivot: {x: -0.027272727, y: 1.0552995}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -432,12 +549,12 @@ TextureImporter:
       name: down confirm0003
       rect:
         serializedVersion: 2
-        x: 1176
-        y: 586
-        width: 219
-        height: 208
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1236
+        y: 557
+        width: 220
+        height: 217
+      alignment: 9
+      pivot: {x: -0.027272727, y: 1.0552995}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -453,12 +570,12 @@ TextureImporter:
       name: down press0000
       rect:
         serializedVersion: 2
-        x: 149
-        y: 492
+        x: 1150
+        y: 407
         width: 142
         height: 140
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: -0.028169014, y: 1.0142857}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -474,12 +591,12 @@ TextureImporter:
       name: down press0001
       rect:
         serializedVersion: 2
-        x: 149
-        y: 492
+        x: 1150
+        y: 407
         width: 142
         height: 140
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: -0.028169014, y: 1.0142857}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -495,12 +612,12 @@ TextureImporter:
       name: down press0002
       rect:
         serializedVersion: 2
-        x: 0
-        y: 490
+        x: 344
+        y: 623
         width: 149
         height: 146
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -516,12 +633,12 @@ TextureImporter:
       name: down press0003
       rect:
         serializedVersion: 2
-        x: 0
-        y: 490
+        x: 344
+        y: 623
         width: 149
         height: 146
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -534,64 +651,64 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green0000
+      name: green alone0000
       rect:
         serializedVersion: 2
-        x: 1850
-        y: 870
+        x: 673
+        y: 618
         width: 157
         height: 154
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38cff1fefe0709770800000000000000
-      internalID: 8615510262971104387
+      spriteID: 4f7f4634ea7e2e4a0800000000000000
+      internalID: -6565430571111745548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green hold end0000
+      name: green hold0000
       rect:
         serializedVersion: 2
-        x: 1120
-        y: 518
-        width: 50
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4db9743ad4b4fff20800000000000000
-      internalID: 3458565835667774420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: green hold piece0000
-      rect:
-        serializedVersion: 2
-        x: 1320
-        y: 533
+        x: 1940
+        y: 620
         width: 50
         height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e5196af2ebeabf980800000000000000
-      internalID: -8504011339492585122
+      spriteID: 82e230bc918e25e30800000000000000
+      internalID: 4490906975919615528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green tail0000
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 876
+        width: 50
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f5e85890478d980800000000000000
+      internalID: -8513927511299694727
       vertices: []
       indices: 
       edges: []
@@ -600,12 +717,12 @@ TextureImporter:
       name: left confirm0000
       rect:
         serializedVersion: 2
-        x: 948
-        y: 793
+        x: 998
+        y: 783
         width: 228
         height: 231
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -621,12 +738,12 @@ TextureImporter:
       name: left confirm0001
       rect:
         serializedVersion: 2
-        x: 1402
-        y: 575
+        x: 1472
+        y: 555
         width: 218
         height: 221
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: -0.02293578, y: 1.0226245}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -642,12 +759,12 @@ TextureImporter:
       name: left confirm0002
       rect:
         serializedVersion: 2
-        x: 1402
-        y: 803
+        x: 1472
+        y: 786
         width: 225
-        height: 221
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 228
+      alignment: 9
+      pivot: {x: -0.008888889, y: 1.004386}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -663,12 +780,12 @@ TextureImporter:
       name: left confirm0003
       rect:
         serializedVersion: 2
-        x: 1402
-        y: 803
+        x: 1472
+        y: 786
         width: 225
-        height: 221
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 228
+      alignment: 9
+      pivot: {x: -0.008888889, y: 1.004386}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -684,12 +801,12 @@ TextureImporter:
       name: left press0000
       rect:
         serializedVersion: 2
-        x: 291
-        y: 490
+        x: 1302
+        y: 405
         width: 140
         height: 142
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: -0.021428572, y: 1.0211267}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -705,12 +822,12 @@ TextureImporter:
       name: left press0001
       rect:
         serializedVersion: 2
-        x: 291
-        y: 490
+        x: 1302
+        y: 405
         width: 140
         height: 142
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: -0.021428572, y: 1.0211267}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -726,12 +843,12 @@ TextureImporter:
       name: left press0002
       rect:
         serializedVersion: 2
-        x: 463
-        y: 486
+        x: 840
+        y: 462
         width: 146
         height: 149
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -747,12 +864,12 @@ TextureImporter:
       name: left press0003
       rect:
         serializedVersion: 2
-        x: 463
-        y: 486
+        x: 840
+        y: 462
         width: 146
         height: 149
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -765,127 +882,463 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pruple end hold0000
+      name: left press0004
       rect:
         serializedVersion: 2
-        x: 1220
-        y: 513
-        width: 50
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 840
+        y: 462
+        width: 146
+        height: 149
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d17823d1ce6cffb40800000000000000
-      internalID: 5476314389310244637
+      spriteID: 69fb2a6b2b0e38750800000000000000
+      internalID: 6306130961421746070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purple0000
+      name: left press0005
       rect:
         serializedVersion: 2
-        x: 630
-        y: 635
+        x: 840
+        y: 462
+        width: 146
+        height: 149
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9b08b131d9d7820800000000000000
+      internalID: 2917660838997309883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press0006
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 462
+        width: 146
+        height: 149
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32c11c51cc1061e0800000000000000
+      internalID: -2206732200612609473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press0007
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 462
+        width: 146
+        height: 149
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b4fc63f730ab510800000000000000
+      internalID: 1565567665379953435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press0008
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 462
+        width: 146
+        height: 149
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520420b62b847fdd0800000000000000
+      internalID: -2452411540943257563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press0009
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 462
+        width: 146
+        height: 149
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653edd96af365efa0800000000000000
+      internalID: -5772097420236299434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press0010
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 462
+        width: 146
+        height: 149
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea3924b9f82e9f60800000000000000
+      internalID: 8042911037464853219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press0011
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 462
+        width: 146
+        height: 149
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24801ea398bc6f1d0800000000000000
+      internalID: -3317240285253007294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press0012
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 462
+        width: 146
+        height: 149
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180cc3293f0e75d40800000000000000
+      internalID: 5573170400629407873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press0013
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 462
+        width: 146
+        height: 149
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00eb7066eb167050800000000000000
+      internalID: 5797852246561251340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press0014
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 462
+        width: 146
+        height: 149
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce1fd589647f19d0800000000000000
+      internalID: -2801392446634778935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press0015
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 462
+        width: 146
+        height: 149
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65482d48b5f2f8d60800000000000000
+      internalID: 7894580741920687190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press0016
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 462
+        width: 146
+        height: 149
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74b6c0a30ce442b0800000000000000
+      internalID: -5601092536215620481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press0017
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 462
+        width: 146
+        height: 149
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c29c081757ebcc0800000000000000
+      internalID: -3693385514044806115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press0018
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 462
+        width: 146
+        height: 149
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3294fefaa9598dff0800000000000000
+      internalID: -11094507459229405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press0019
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 462
+        width: 146
+        height: 149
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad999cdae090b1d0800000000000000
+      internalID: -3337007985483735639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple alone0000
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 451
         width: 154
         height: 157
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2613562b9c2e6940800000000000000
-      internalID: 5291215657081443887
+      spriteID: b98cafdbd04c6b830800000000000000
+      internalID: 4086669275186251931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purple hold piece0000
+      name: purple hold0000
       rect:
         serializedVersion: 2
-        x: 1420
-        y: 531
+        x: 1940
+        y: 566
         width: 50
         height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ef28505c1298dd60800000000000000
-      internalID: 7915236995408343009
+      spriteID: d835d80cd8c37afa0800000000000000
+      internalID: -5789592216442940531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: red0000
+      name: purple tail0000
       rect:
         serializedVersion: 2
-        x: 476
-        y: 635
-        width: 154
-        height: 157
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b55a22197a8281470800000000000000
-      internalID: 8365481008000312667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: red hold end0000
-      rect:
-        serializedVersion: 2
-        x: 1070
-        y: 518
+        x: 1940
+        y: 802
         width: 50
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 318a8b83fb6d5fcf0800000000000000
-      internalID: -219032890078877677
+      spriteID: b3822dac8d8510f50800000000000000
+      internalID: 6845850596718815291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: red hold piece0000
+      name: red alone0000
       rect:
         serializedVersion: 2
-        x: 1270
-        y: 533
-        width: 50
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 508
+        y: 451
+        width: 154
+        height: 157
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 422c1a2d9de820940800000000000000
-      internalID: 5260924380915024420
+      spriteID: edaf2e01fa98eb270800000000000000
+      internalID: 8268197350894402270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hold0000
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 512
+        width: 50
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a889cfab7941f1a10800000000000000
+      internalID: 1882245811173890186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red tail0000
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 728
+        width: 50
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04517ebefe31bdf40800000000000000
+      internalID: 5754214870071842112
       vertices: []
       indices: 
       edges: []
@@ -894,12 +1347,12 @@ TextureImporter:
       name: right confirm0000
       rect:
         serializedVersion: 2
-        x: 1627
-        y: 798
+        x: 1707
+        y: 788
         width: 223
         height: 226
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: -0.004484305, y: 1.0132743}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -915,12 +1368,12 @@ TextureImporter:
       name: right confirm0001
       rect:
         serializedVersion: 2
-        x: 1627
-        y: 572
+        x: 1707
+        y: 552
         width: 223
         height: 226
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: -0.004484305, y: 1.0132743}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -936,12 +1389,12 @@ TextureImporter:
       name: right confirm0002
       rect:
         serializedVersion: 2
-        x: 1176
-        y: 794
+        x: 1236
+        y: 784
         width: 226
         height: 230
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -957,12 +1410,12 @@ TextureImporter:
       name: right confirm0003
       rect:
         serializedVersion: 2
-        x: 1176
-        y: 794
+        x: 1236
+        y: 784
         width: 226
         height: 230
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -978,12 +1431,12 @@ TextureImporter:
       name: right press0000
       rect:
         serializedVersion: 2
-        x: 932
-        y: 441
+        x: 1452
+        y: 404
         width: 138
         height: 141
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: -0.02173913, y: 1.0496454}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -999,12 +1452,12 @@ TextureImporter:
       name: right press0001
       rect:
         serializedVersion: 2
-        x: 932
-        y: 441
+        x: 1452
+        y: 404
         width: 138
         height: 141
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: -0.02173913, y: 1.0496454}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1020,12 +1473,12 @@ TextureImporter:
       name: right press0002
       rect:
         serializedVersion: 2
-        x: 784
-        y: 488
+        x: 840
+        y: 621
         width: 148
         height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1041,12 +1494,12 @@ TextureImporter:
       name: right press0003
       rect:
         serializedVersion: 2
-        x: 784
-        y: 488
+        x: 840
+        y: 621
         width: 148
         height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1059,15 +1512,498 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: right press0004
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0061fad3f3e3695b0800000000000000
+      internalID: -5362029864999250432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0005
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbc4664f74dcb3a0800000000000000
+      internalID: -6648205306798748715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0006
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01915830aa3a32050800000000000000
+      internalID: 5774639097817930000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0007
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276bdedc4c9558670800000000000000
+      internalID: 8540330970181383794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0008
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9acd3730dc975970800000000000000
+      internalID: 8743629619657034396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0009
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bca3702518c4470800000000000000
+      internalID: 8380215195938245411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0010
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6aaca6b996a3d50800000000000000
+      internalID: 6717797910409029328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0011
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84e03e7171635fb0800000000000000
+      internalID: -4660274049321999218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0012
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b66485d2e8f3d830800000000000000
+      internalID: 4094890139338434226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0013
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0dabf8e217361400800000000000000
+      internalID: 294483379997093132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0014
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be09fdddc4624d830800000000000000
+      internalID: 4094940072768409835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0015
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9238fef3a07e3ecb0800000000000000
+      internalID: -4835767543657430231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0016
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7919b678e58dfd00800000000000000
+      internalID: 1008109125071608186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0017
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6bd6933863e51f0800000000000000
+      internalID: -1054345325526010149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0018
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2653d585f12458a0800000000000000
+      internalID: -6317387038898039249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0019
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1393af5169b73de0800000000000000
+      internalID: -1353409335134022881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0020
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69b7cf41c7774700800000000000000
+      internalID: 524519553762834797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0021
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86859d083a6b84f0800000000000000
+      internalID: -825449317713738098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0022
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4ec272497d9e420800000000000000
+      internalID: 2659894086251373742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0023
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c54a777e775fc20800000000000000
+      internalID: 3239627342991350796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0024
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c867bf892d8094f40800000000000000
+      internalID: 5713107302898955916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0025
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef16dd13d5b775390800000000000000
+      internalID: -7829653786961550850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press0026
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 621
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab1cbbaeca3e7e20800000000000000
+      internalID: 3350179832129133484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: up confirm0000
       rect:
         serializedVersion: 2
-        x: 476
-        y: 792
+        x: 506
+        y: 782
         width: 236
         height: 232
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1083,12 +2019,12 @@ TextureImporter:
       name: up confirm0001
       rect:
         serializedVersion: 2
-        x: 712
-        y: 792
+        x: 752
+        y: 782
         width: 236
         height: 232
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1104,12 +2040,12 @@ TextureImporter:
       name: up confirm0002
       rect:
         serializedVersion: 2
-        x: 948
-        y: 587
+        x: 998
+        y: 562
         width: 214
-        height: 206
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 211
+      alignment: 9
+      pivot: {x: -0.05140187, y: 1.0473933}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1125,12 +2061,12 @@ TextureImporter:
       name: up confirm0003
       rect:
         serializedVersion: 2
-        x: 948
-        y: 587
+        x: 998
+        y: 562
         width: 214
-        height: 206
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 211
+      alignment: 9
+      pivot: {x: -0.05140187, y: 1.0473933}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1146,12 +2082,12 @@ TextureImporter:
       name: up press0000
       rect:
         serializedVersion: 2
-        x: 609
-        y: 494
+        x: 996
+        y: 411
         width: 144
         height: 141
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: -0.034722224, y: 1.0283688}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1167,12 +2103,12 @@ TextureImporter:
       name: up press0001
       rect:
         serializedVersion: 2
-        x: 609
-        y: 494
+        x: 996
+        y: 411
         width: 144
         height: 141
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: -0.034722224, y: 1.0283688}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1188,12 +2124,12 @@ TextureImporter:
       name: up press0002
       rect:
         serializedVersion: 2
-        x: 1850
-        y: 566
+        x: 174
+        y: 455
         width: 153
         height: 150
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1209,12 +2145,12 @@ TextureImporter:
       name: up press0003
       rect:
         serializedVersion: 2
-        x: 1850
-        y: 566
+        x: 174
+        y: 455
         width: 153
         height: 150
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

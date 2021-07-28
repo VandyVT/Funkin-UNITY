@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class Boyfriend : MonoBehaviour
 {
-    public MusicConduct mc;
     [SerializeField] private Animator anim;
     [SerializeField] private Animator Handle;
     public Slider Healthbar;
@@ -13,17 +12,11 @@ public class Boyfriend : MonoBehaviour
     public AudioSource DyingSource;
     public AudioClip[] DyingSounds;
 
-    private int m_MyVar = 0;
-    public int myVar = 0; //Gets the int value for BobInt, which assigns it's value on the songPositionInBeats float for MusicConduct
-
     private void Update() {
-        myVar = mc.BobInt;
-        
-        if (m_MyVar < myVar && this.anim.GetCurrentAnimatorStateInfo(0).IsName("Player_Idle"))
-        {
-            PlayIdle();
-            m_MyVar = myVar + 1;
-        }
+        //if (MusicConduct.Instance.songPositionInBeats / 1000 % 4 == 0)
+        //{
+        //    PlayIdle();
+        //}
 
         if (Healthbar.value >= 0 && PlayerDead == false)
         {
@@ -36,7 +29,7 @@ public class Boyfriend : MonoBehaviour
 
     void PlayIdle()
     {
-        anim.Play("Player_Idle", -1, 0f);
+        anim.Play("BF idle dance", -1, 0f);
         Handle.Play("HandleBump", -1, 0f);
     }
 }
