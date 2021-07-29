@@ -56,9 +56,9 @@ public class MusicConduct : MonoBehaviour
     }
     void Start()
     {
-        if (File.Exists(Path.Combine(Application.dataPath, "Maps", songName.ToLower(), songName.ToLower() + songDiff + ".json")))
+        if (File.Exists(Path.Combine(Application.dataPath, "StreamingAssets", "Maps", songName.ToLower(), songName.ToLower() + songDiff + ".json")))
         {
-            map = SongData.LoadSong(Path.Combine(Application.dataPath, "Maps", songName.ToLower(), songName.ToLower() + songDiff + ".json")).song;
+            map = SongData.LoadSong(Path.Combine(Application.dataPath, "StreamingAssets", "Maps", songName.ToLower(), songName.ToLower() + songDiff + ".json")).song;
         }
         else
         {
