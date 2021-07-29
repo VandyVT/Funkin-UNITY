@@ -1146,7 +1146,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 02723db67c590c84d8da61fbe949dd55,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: c7bffb519c36dde41a8409e0540dacf7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d76d9c0576f8ba84c8ba5e74b5f685b9, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2807,7 +2807,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 02723db67c590c84d8da61fbe949dd55,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 0ee3a8e0d4a2e2943925d5dca8ab699f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6bbdb17b9d43d8f498c638f9908955f5, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3116,10 +3116,10 @@ RectTransform:
   m_Father: {fileID: 1078014249}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -231.3, y: -18.3}
-  m_SizeDelta: {x: -445.8386, y: -0.21871948}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 168.7, y: -243.3}
+  m_SizeDelta: {x: 354.1614, y: 449.78128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1626390591
 Animator:
@@ -3355,14 +3355,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2955f39fd639bd64997a5514257731f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mc: {fileID: 2108511404}
   anim: {fileID: 1694977255}
   Handle: {fileID: 1751815943}
   Healthbar: {fileID: 870814258}
   DyingSource: {fileID: 1694977253}
   DyingSounds:
   - {fileID: 8300000, guid: 8e7263f9c42cf254e97dfe1d2f1f376f, type: 3}
-  myVar: 0
 --- !u!95 &1694977255
 Animator:
   serializedVersion: 3
@@ -4043,7 +4041,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2955f39fd639bd64997a5514257731f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mc: {fileID: 2108511404}
   anim: {fileID: 1862719242}
   Handle: {fileID: 1751815943}
   Healthbar: {fileID: 870814258}
@@ -4051,7 +4048,6 @@ MonoBehaviour:
   DyingSounds:
   - {fileID: 8300000, guid: 8e7263f9c42cf254e97dfe1d2f1f376f, type: 3}
   - {fileID: 8300000, guid: a6639e8a341afa24ebbfe875652abe05, type: 3}
-  myVar: 0
 --- !u!95 &1862719242
 Animator:
   serializedVersion: 3
@@ -4765,10 +4761,10 @@ RectTransform:
   m_Father: {fileID: 1078014249}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 169.3, y: -18.3}
-  m_SizeDelta: {x: -445.8386, y: -0.21871948}
+  m_AnchoredPosition: {x: -230.7, y: -243.3}
+  m_SizeDelta: {x: 354.1614, y: 449.78128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &2063277357
 Animator:
@@ -4839,7 +4835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34d233d9851cca04da4c2d2784a2e9df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  songBpm: 100
+  songBpm: 150
   started: 0
   secPerBeat: 0
   songPosition: 0
@@ -4863,11 +4859,12 @@ MonoBehaviour:
   - {fileID: 1078014248}
   - {fileID: 1322929834}
   - {fileID: 1694977252}
+  - {fileID: 1233259055}
   insts: {fileID: 1368615387}
   vocals: {fileID: 529553639}
   m_GFVar: 0
   GFBobRate: 0
-  songName: Bopeebo
+  songName: Ballistic
   songDiff: -hard
   bpm: 0
   nextIndex: 0
