@@ -11,6 +11,7 @@ Shader "Unlit/Shader"
     {
         Tags {"Queue" = "Transparent" "IgnoreProjector" = "True" "RenderType" = "Transparent"}
         ZWrite Off
+        ZTest Always
         Blend SrcAlpha OneMinusSrcAlpha
         Cull front
         LOD 100

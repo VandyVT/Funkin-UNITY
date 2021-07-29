@@ -9,7 +9,23 @@ using UnityEngine.UI;
 
 public class MusicConduct : MonoBehaviour
 {
-    public static MusicConduct Instance;
+    private static MusicConduct _Instance;
+    public static MusicConduct Instance 
+    {   
+        get  
+        {
+            if(_Instance == null)
+            {
+                Debug.Log("Why the FUCK is this null???");
+                _Instance = Resources.FindObjectsOfTypeAll<MusicConduct>().FirstOrDefault();
+            }
+            return _Instance;
+        }
+        private set
+        {
+            _Instance = value;
+        }
+    }
     [Header("Technical Info")]
     public float songBpm;
     public bool started;
@@ -27,15 +43,10 @@ public class MusicConduct : MonoBehaviour
     [SerializeField] private AudioSource voiceSource;
     public GameObject Note;
     public Slider Healthbar;
-    public Image BF_Canvas; 
-    public Animator BF_Anim;
-    public Sprite[] Boyfriend;
-    public GameObject[] DisableOnDeath;
     public AudioSource insts;
     public AudioSource vocals;
     
-    public float m_GFVar = 0;
-    public float GFBobRate;
+    public float BobRate;
 
     [Header("Song Info")]
     public string songName = "Bopeebo";
@@ -46,24 +57,25 @@ public class MusicConduct : MonoBehaviour
     public List<NoteData> notes;
 
     [Header("Characters")]
-    public Animator Player;
-    public Animator Girlfriend;
+    public Animator gf;
+    public Animator bf;
+    public Animator dad;
 
 
-    private void Awake() {
-        if(Instance != null) return;
-        Instance = this;
-    }
     void Start()
     {
-        if (File.Exists(Path.Combine(Application.dataPath, "StreamingAssets", "Maps", songName.ToLower(), songName.ToLower() + songDiff + ".json")))
+        Instance = this;
+        if (File.Exists(Path.Combine(Application.dataPath, "Maps", songName.ToLower(), songName.ToLower() + songDiff + ".json")))
         {
             map = SongData.LoadSong(Path.Combine(Application.dataPath, "StreamingAssets", "Maps", songName.ToLower(), songName.ToLower() + songDiff + ".json")).song;
         }
         else
         {
-            map = JsonConvert.DeserializeObject<SongData.Root>(PresetMapGrabber.GetMap(songName, songDiff)).song;
+            map = JsonConvert.DeserializeObject<SongData.Root>(MapGrabber.GetMap(songName, songDiff)).song;
         }
+        songBpm = map.Bpm;
+        insts.clip = Resources.Load("songs/" + songName.ToLower() + "/Inst") as AudioClip;
+        vocals.clip = Resources.Load("songs/" + songName.ToLower() + "/Voices") as AudioClip;
         notes = map.Notes.SelectMany((SectionData a) => a.notes).ToList();
         notes.Sort((x, y) => x.strumTime.CompareTo(y.strumTime));
         Spawner.instance.SpawnAllNotes(notes);
@@ -72,7 +84,6 @@ public class MusicConduct : MonoBehaviour
         timeScale = safeZoneOffset / 166;
         secPerBeat = 60f / songBpm;
         bpm = songBpm;
-        m_GFVar = BobInt;
 
         //Record the time when the music starts
         dspSongTime = (float)AudioSettings.dspTime;
@@ -92,30 +103,6 @@ public class MusicConduct : MonoBehaviour
         {
             Healthbar.value = 0;
         }
-            //Change UI character images based on health value
-        if (Healthbar.value > -21)
-        {
-            BF_Canvas.GetComponent<Image>().sprite = Boyfriend [1];
-        }
-
-        else
-        {
-            BF_Canvas.GetComponent<Image>().sprite = Boyfriend[0];
-        }
-
-        //Initiate death sequence when slider value is 0
-        if(Healthbar.value >= 0)
-        {
-            musicSource.Stop();
-            voiceSource.Stop();
-            for (int i = 0; i < DisableOnDeath.Length; i++)
-            {
-                DisableOnDeath[i].SetActive(false);
-                Destroy(DisableOnDeath[i].gameObject);
-            }
-            Destroy(gameObject);
-        }
-
         //determine how many seconds since the song started
         songPosition = (float)(AudioSettings.dspTime - dspSongTime - firstBeatOffset) * 1000f;
 
@@ -128,11 +115,9 @@ public class MusicConduct : MonoBehaviour
         //determine how many beats since the song started
         songPositionInBeats = songPosition / secPerBeat;
         BobInt = (int)songPositionInBeats;
-
-        if (m_GFVar < BobInt && Girlfriend.GetCurrentAnimatorStateInfo(0).IsName("GF_Dance")) 
-        {
-            Girlfriend.speed = GFBobRate;
-            m_GFVar = BobInt;
-        } 
+        BobRate = secPerBeat;
+        gf.speed = BobRate * 4;
+        dad.speed = BobRate * 4;
+        bf.speed = BobRate * 4;
     }
 }

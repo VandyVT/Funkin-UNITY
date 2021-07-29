@@ -44,7 +44,7 @@ public class ArrowControl : MonoBehaviour
         ArrowTypeSelect = data.type % 3;
         sustainLength = data.length;
         strumTime = data.strumTime;
-        MustHit = data.section.mustHitSection;
+        MustHit = data.section.mustHitSection || data.type > 3;
     }
     void Start()
     {
@@ -63,6 +63,7 @@ public class ArrowControl : MonoBehaviour
     
     void Update()
     {
+        GetComponent<Image>().enabled = GameObject.Find("OnScreenCheck").transform.position.y < transform.position.y;
         transform.localPosition = new Vector3(0, 0.45f + (ConductOBJ.GetComponent<MusicConduct>().songPosition - strumTime) * scrollSpeed/2f, 0f);
         if(MustHit)
         {
