@@ -92,4 +92,12 @@ public class ArrowControl : MonoBehaviour
                 AtStrum = true;
         }
     }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.tag == "ArrowDestroyer")
+        {
+            Destroy(gameObject);
+        }
+    }
 }
