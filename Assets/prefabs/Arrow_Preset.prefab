@@ -96,9 +96,9 @@ MonoBehaviour:
   tooLate: 0
   wasGoodHit: 0
   isSustainNote: 0
-  sustainLength: 450
+  sustainLength: 0
   scrollSpeed: 1
-  strumTime: 75600
+  strumTime: 155490.36
   ArrowTypeSprites:
   - {fileID: 4086669275186251931, guid: 6ab67a1321046c5439d02910a6635f55, type: 3}
   - {fileID: 5418567698423343750, guid: 6ab67a1321046c5439d02910a6635f55, type: 3}

@@ -60,8 +60,8 @@ public class StrumsController : MonoBehaviour
                 strum.transform.localScale = new Vector3(0.8f, 0.8f, 0.8f);
             }
 
-            strum.transform.localPosition = new Vector3(strum.transform.localPosition.x, y, strum.transform.localPosition.z);
-            strum.transform.position = new Vector3(x, strum.transform.position.y, strum.transform.position.z);
+            //strum.transform.localPosition = new Vector3(strum.transform.localPosition.x, y, strum.transform.localPosition.z);
+            //strum.transform.position = new Vector3(x, strum.transform.position.y, strum.transform.position.z);
 
             if (playerConfirmArray[i])
             {
@@ -110,8 +110,8 @@ public class StrumsController : MonoBehaviour
                 strum.transform.localScale = new Vector3(0.8f, 0.8f, 0.8f);
             }
 
-            strum.transform.localPosition = new Vector3(strum.transform.localPosition.x, y, strum.transform.localPosition.z);
-            strum.transform.position = new Vector3(x, strum.transform.position.y, strum.transform.position.z);
+            //strum.transform.localPosition = new Vector3(strum.transform.localPosition.x, y, strum.transform.localPosition.z);
+            //strum.transform.position = new Vector3(x, strum.transform.position.y, strum.transform.position.z);
             if (enemyConfirmArray[i])
             {
                 strum.sprite = confirmImages[i];
