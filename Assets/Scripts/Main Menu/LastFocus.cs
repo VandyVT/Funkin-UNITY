@@ -33,7 +33,7 @@ public class LastFocus : MonoBehaviour
 
         for (int i = 0; i < Objects.Length; i++)
         {
-            Objects[curSelected].GetComponent<Animator>().SetBool("Selected", i == curSelected);
+           Objects[curSelected].GetComponent<Animator>().SetBool("Selected", i == curSelected);
         }
     }
 }

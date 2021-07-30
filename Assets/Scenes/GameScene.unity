@@ -269,7 +269,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &119465833
 Transform:
   m_ObjectHideFlags: 0
@@ -4321,8 +4321,8 @@ MonoBehaviour:
   insts: {fileID: 1368615387}
   vocals: {fileID: 529553639}
   BobRate: 0
-  songName: Ballistic
-  songDiff: -hard
+  songName: Foolhardy
+  songDiff: 
   bpm: 0
   nextIndex: 0
   map:
