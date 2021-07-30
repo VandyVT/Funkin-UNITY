@@ -65,10 +65,12 @@ public class MusicConduct : MonoBehaviour
     void Start()
     {
         Instance = this;
-        if (File.Exists(Path.Combine(Application.dataPath, "Maps", songName.ToLower(), songName.ToLower() + songDiff + ".json")))
-        {
-            map = SongData.LoadSong(Path.Combine(Application.dataPath, "Maps", songName.ToLower(), songName.ToLower() + songDiff + ".json")).song;
-        }
+        if (File.Exists(Path.Combine(Application.dataPath, "StreamingAssets", "Maps", songName.ToLower(), songName.ToLower() + songDiff + ".json")))
+            if (File.Exists(Path.Combine(Application.dataPath, "StreamingAssets", "Maps", songName.ToLower(), songName.ToLower() + songDiff + ".json")))
+            {
+            map = SongData.LoadSong(Path.Combine(Application.dataPath, "StreamingAssets", "Maps", songName.ToLower(), songName.ToLower() + songDiff + ".json")).song;
+                map = SongData.LoadSong(Path.Combine(Application.dataPath, "StreamingAssets", "Maps", songName.ToLower(), songName.ToLower() + songDiff + ".json")).song;
+            }
         else
         {
             map = JsonConvert.DeserializeObject<SongData.Root>(MapGrabber.GetMap(songName, songDiff)).song;
