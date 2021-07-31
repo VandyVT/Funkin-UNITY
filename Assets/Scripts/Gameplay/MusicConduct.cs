@@ -105,6 +105,12 @@ public class MusicConduct : MonoBehaviour
         {
             Healthbar.value = 0;
         }
+
+        if (Healthbar.value >= -25)
+        {
+
+        }
+
         //determine how many seconds since the song started
         songPosition = (float)(AudioSettings.dspTime - dspSongTime - firstBeatOffset) * 1000f;
 
