@@ -1,11 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
-using UnityEngine.EventSystems;
-using System.Linq;
-using System;
 using UnityEngine.Events;
 
 public class SettingsMenu : MonoBehaviour
@@ -18,13 +14,16 @@ public class SettingsMenu : MonoBehaviour
     public AudioMixer musicMixer;
     public AudioMixer soundMixer;
 
+    [Header("Options | Gameplay")]
+    public bool HideGF; public Toggle GFToggle;
+
     const string PrefName = "optionvalue";
+
 
     public void SetVolumeMus(float volumeMus)
     {
         musicMixer.SetFloat("MusVol", Mathf.Log10(volumeMus) * 20);
     }
-
     public void SetVolumeSou(float volumeSou)
     {
         soundMixer.SetFloat("SoundVolume", Mathf.Log10(volumeSou) * 20);
@@ -39,6 +38,10 @@ public class SettingsMenu : MonoBehaviour
             PlayerPrefs.Save();
         }));
         FSToggle = GameObject.Find("Fullscreen Toggle").GetComponent<Toggle>();
+        GFToggle = GameObject.Find("Hide GF").GetComponent<Toggle>();
+
+        PlayerPrefs.SetInt("GF.pref", (HideGF ? 1 : 0));
+        HideGF = (PlayerPrefs.GetInt("GF.pref") != 0);
     }
 
     void Start()
@@ -73,6 +76,15 @@ public class SettingsMenu : MonoBehaviour
         {
             FSToggle.isOn = false;
         }
+
+        if (PlayerPrefs.GetInt("GFtoggle") == 1)
+        {
+            GFToggle.isOn = true;
+        }
+        else
+        {
+            GFToggle.isOn = false;
+        }
     }
 
     public void SetQuality(int QualityIndex)
@@ -106,6 +118,16 @@ public class SettingsMenu : MonoBehaviour
         else
         {
             PlayerPrefs.SetInt("Ftoggle", 0);
+        }
+
+        int GFIndex = PlayerPrefs.GetInt("GFtoggle");
+        if (GFToggle.isOn == true)
+        {
+            PlayerPrefs.SetInt("GF.pref", 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("GF.pref", 0);
         }
     }
 }
