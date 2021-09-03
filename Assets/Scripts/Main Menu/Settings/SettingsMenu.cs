@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.Audio;
 using UnityEngine.Events;
@@ -15,7 +16,8 @@ public class SettingsMenu : MonoBehaviour
     public AudioMixer soundMixer;
 
     [Header("Options | Gameplay")]
-    public bool HideGF; public Toggle GFToggle;
+    bool loadedTest = false;
+    public bool HideGF; public Toggle GFToggle; 
 
     const string PrefName = "optionvalue";
 
@@ -38,10 +40,6 @@ public class SettingsMenu : MonoBehaviour
             PlayerPrefs.Save();
         }));
         FSToggle = GameObject.Find("Fullscreen Toggle").GetComponent<Toggle>();
-        GFToggle = GameObject.Find("Hide GF").GetComponent<Toggle>();
-
-        PlayerPrefs.SetInt("GF.pref", (HideGF ? 1 : 0));
-        HideGF = (PlayerPrefs.GetInt("GF.pref") != 0);
     }
 
     void Start()
@@ -68,22 +66,13 @@ public class SettingsMenu : MonoBehaviour
         int QualityIndex = PlayerPrefs.GetInt("GraphicsQuality");
         qualityDropdown.value = PlayerPrefs.GetInt(PrefName, 0);
 
-        if (PlayerPrefs.GetInt ("Ftoggle") == 1)
+        if (PlayerPrefs.GetInt("Ftoggle") == 1)
         {
             FSToggle.isOn = true;
         }
         else
         {
             FSToggle.isOn = false;
-        }
-
-        if (PlayerPrefs.GetInt("GFtoggle") == 1)
-        {
-            GFToggle.isOn = true;
-        }
-        else
-        {
-            GFToggle.isOn = false;
         }
     }
 
@@ -108,6 +97,18 @@ public class SettingsMenu : MonoBehaviour
         Screen.fullScreen = isFullscreen;
     }
 
+    public void LoadTestScene()
+    {
+        loadedTest = true;
+        SceneManager.LoadScene("FreshTest", LoadSceneMode.Additive);
+    }
+
+    public void UnloadTestScene()
+    {
+        loadedTest = false;
+        SceneManager.UnloadSceneAsync("FreshTest");
+    }
+
     public void Update()
     {
         int QualityIndex = PlayerPrefs.GetInt("GraphicsQuality");
@@ -120,14 +121,22 @@ public class SettingsMenu : MonoBehaviour
             PlayerPrefs.SetInt("Ftoggle", 0);
         }
 
-        int GFIndex = PlayerPrefs.GetInt("GFtoggle");
-        if (GFToggle.isOn == true)
+        if (GFToggle.isOn)
         {
-            PlayerPrefs.SetInt("GF.pref", 1);
+            if(loadedTest == true && HideGF == false)
+            {
+                GameObject.FindWithTag("GF").GetComponent<Renderer>().enabled = false;
+                HideGF = true;
+            }
         }
-        else
+
+        if (!GFToggle.isOn)
         {
-            PlayerPrefs.SetInt("GF.pref", 0);
+            if (loadedTest == true && HideGF == true)
+            {
+                GameObject.FindWithTag("GF").GetComponent<Renderer>().enabled = true;
+                HideGF = false;
+            }
         }
     }
 }

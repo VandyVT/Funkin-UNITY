@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - ArrowDestroyer
+  - GF
   layers:
   - Default
   - TransparentFX
