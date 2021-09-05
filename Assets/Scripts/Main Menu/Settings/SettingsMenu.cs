@@ -44,6 +44,7 @@ public class SettingsMenu : MonoBehaviour
 
     void Start()
     {
+        GameObject.FindWithTag("GF");
         resolutions = Screen.resolutions;
         resolutionDropdown.ClearOptions();
         var QLevel = PlayerPrefs.GetInt("GraphicsQuality");
@@ -73,6 +74,15 @@ public class SettingsMenu : MonoBehaviour
         else
         {
             FSToggle.isOn = false;
+        }
+
+        if (PlayerPrefs.GetInt("GFPref") == 1)
+        {
+            GFToggle.isOn = true;
+        }
+        else
+        {
+            GFToggle.isOn = false;
         }
     }
 
@@ -125,7 +135,8 @@ public class SettingsMenu : MonoBehaviour
         {
             if(loadedTest == true && HideGF == false)
             {
-                GameObject.FindWithTag("GF").GetComponent<Renderer>().enabled = false;
+                GameObject.FindWithTag("GF").GetComponent<Renderer>().enabled = HideGF;
+                PlayerPrefs.SetInt("GFPref", 1);
                 HideGF = true;
             }
         }
@@ -134,7 +145,8 @@ public class SettingsMenu : MonoBehaviour
         {
             if (loadedTest == true && HideGF == true)
             {
-                GameObject.FindWithTag("GF").GetComponent<Renderer>().enabled = true;
+                GameObject.FindWithTag("GF").GetComponent<Renderer>().enabled = HideGF;
+                PlayerPrefs.SetInt("GFPref", 0);
                 HideGF = false;
             }
         }
