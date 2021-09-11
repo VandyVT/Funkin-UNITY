@@ -17,7 +17,7 @@ public class SettingsMenu : MonoBehaviour
 
     [Header("Options | Gameplay")]
     bool loadedTest = false;
-    public bool HideGF; public Toggle GFToggle; 
+    public bool HideGF; public Toggle GFToggle; GameObject GFObject;
 
     const string PrefName = "optionvalue";
 

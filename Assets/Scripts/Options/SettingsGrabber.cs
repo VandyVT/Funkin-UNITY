@@ -31,4 +31,9 @@ public class SettingsGrabber : MonoBehaviour
             }
         }
     }
+
+    static object GetPropValue(object SettingsToGet, string BoolToGet)
+    {
+        return SettingsToGet.GetType().GetProperty(BoolToGet).GetValue(SettingsToGet);
+    }
 }

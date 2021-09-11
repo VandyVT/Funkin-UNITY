@@ -727,6 +727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SettingsToGet: Global Object
+  BoolToGet: HideGF
   Hide: 1
 --- !u!1 &341795686
 GameObject:
