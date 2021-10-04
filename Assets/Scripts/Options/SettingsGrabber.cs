@@ -32,6 +32,25 @@ public class SettingsGrabber : MonoBehaviour
         }
     }
 
+    public class Example
+    {
+        Dictionary<string, bool> _boolsDict = new Dictionary<string, bool>();
+
+        //Some logic to populate the dictionary values...
+
+        public bool GetValue(string key)
+        {
+            bool value = false;
+
+            if (_boolsDict.ContainsKey(key))
+            {
+                value = _boolsDict[key];
+            }
+
+            return value;
+        }
+    }
+
     static object GetPropValue(object SettingsToGet, string BoolToGet)
     {
         return SettingsToGet.GetType().GetProperty(BoolToGet).GetValue(SettingsToGet);
