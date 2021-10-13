@@ -14,6 +14,7 @@ public class SettingsMenu : MonoBehaviour
     public Toggle FSToggle;
     public AudioMixer musicMixer;
     public AudioMixer soundMixer;
+    public AudioMixer voiceMixer;
 
     [Header("Options | Gameplay")]
     bool loadedTest = false;
@@ -30,7 +31,10 @@ public class SettingsMenu : MonoBehaviour
     {
         soundMixer.SetFloat("SoundVolume", Mathf.Log10(volumeSou) * 20);
     }
-
+    public void SetVolumeVoi(float volumeSou)
+    {
+        voiceMixer.SetFloat("VoiceVolume", Mathf.Log10(volumeSou) * 20);
+    }
     void Awake()
     {
         qualityDropdown = GameObject.Find("Quality Dropdown").GetComponent<Dropdown>();

@@ -8479,6 +8479,7 @@ MonoBehaviour:
   FSToggle: {fileID: 1562658258}
   musicMixer: {fileID: 24100000, guid: 85d288cb51753b44db3f6f071ad689d1, type: 2}
   soundMixer: {fileID: 24100000, guid: cc78f871b3bcee74697a356707c1b15d, type: 2}
+  voiceMixer: {fileID: 24100000, guid: 93741f0acb27aab4b99bff1e0cd468c5, type: 2}
   HideGF: 0
   GFToggle: {fileID: 1984579733}
 --- !u!1 &1060010464
@@ -12010,7 +12011,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1052939117}
-        m_MethodName: SetVolumeSou
+        m_MethodName: SetVolumeVoi
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
