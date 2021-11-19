@@ -10,6 +10,7 @@ public class SettingsGrabber : MonoBehaviour
 
     public bool Hide;
     GameObject Toggle;
+    public GameObject GF;
 
     void Start()
     {
@@ -27,7 +28,7 @@ public class SettingsGrabber : MonoBehaviour
         {
             if (Hide == true)
             {
-                GetComponent<Renderer>().enabled = !Toggle.GetComponent<SettingsMenu>().HideGF;
+                GF.GetComponent<Renderer>().enabled = !Toggle.GetComponent<SettingsMenu>().HideGF;
             }
         }
     }

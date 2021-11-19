@@ -18,7 +18,13 @@ public class SettingsMenu : MonoBehaviour
 
     [Header("Options | Gameplay")]
     bool loadedTest = false;
-    public bool HideGF; public Toggle GFToggle; GameObject GFObject;
+    public bool HideGF; public Toggle GFToggle;
+    public bool HideBF; public Toggle BFToggle;
+    public bool HideEnemy; public Toggle EnemyToggle;
+    public bool HideEnemyArrows; public Toggle EnemyArrowsToggle;
+    public bool HideStage; public Toggle StageToggle;
+
+    public bool ArrowsMoved = true;
 
     const string PrefName = "optionvalue";
 
@@ -48,7 +54,6 @@ public class SettingsMenu : MonoBehaviour
 
     void Start()
     {
-        GameObject.FindWithTag("GF");
         resolutions = Screen.resolutions;
         resolutionDropdown.ClearOptions();
         var QLevel = PlayerPrefs.GetInt("GraphicsQuality");
@@ -57,7 +62,7 @@ public class SettingsMenu : MonoBehaviour
         int currentResolutionIndex = 0;
         for (int i = 0; i < resolutions.Length; i++)
         {
-            string option = resolutions[i].width + " x " + resolutions[i].height;
+            string option = resolutions[i].width + " x " + resolutions[i].height + " " + resolutions[i].refreshRate + "Hz";
             options.Add(option);
 
             if (resolutions[i].width == Screen.width && resolutions[i].height == Screen.height)
@@ -71,6 +76,7 @@ public class SettingsMenu : MonoBehaviour
         int QualityIndex = PlayerPrefs.GetInt("GraphicsQuality");
         qualityDropdown.value = PlayerPrefs.GetInt(PrefName, 0);
 
+        //Fullscreen PlayerPrefs
         if (PlayerPrefs.GetInt("Ftoggle") == 1)
         {
             FSToggle.isOn = true;
@@ -80,6 +86,7 @@ public class SettingsMenu : MonoBehaviour
             FSToggle.isOn = false;
         }
 
+        //Hide GF PlayerPrefs
         if (PlayerPrefs.GetInt("GFPref") == 1)
         {
             GFToggle.isOn = true;
@@ -87,6 +94,46 @@ public class SettingsMenu : MonoBehaviour
         else
         {
             GFToggle.isOn = false;
+        }
+
+        //Hide BF PlayerPrefs
+        if (PlayerPrefs.GetInt("BFPref") == 1)
+        {
+            BFToggle.isOn = true;
+        }
+        else
+        {
+            BFToggle.isOn = false;
+        }
+
+        //Hide Enemy PlayerPrefs
+        if (PlayerPrefs.GetInt("EnemyPref") == 1)
+        {
+            EnemyToggle.isOn = true;
+        }
+        else
+        {
+            EnemyToggle.isOn = false;
+        }
+
+        //Hide Enemy Arrows PlayerPrefs
+        if (PlayerPrefs.GetInt("EnemyArrowPref") == 1)
+        {
+            EnemyArrowsToggle.isOn = true;
+        }
+        else
+        {
+            EnemyArrowsToggle.isOn = false;
+        }
+
+        //Hide Stage PlayerPrefs
+        if (PlayerPrefs.GetInt("StagePref") == 1)
+        {
+            StageToggle.isOn = true;
+        }
+        else
+        {
+            StageToggle.isOn = false;
         }
     }
 
@@ -135,24 +182,99 @@ public class SettingsMenu : MonoBehaviour
             PlayerPrefs.SetInt("Ftoggle", 0);
         }
 
+        //Hide GF Toggle
         if (GFToggle.isOn)
         {
             if(loadedTest == true && HideGF == false)
             {
-                GameObject.FindWithTag("GF").GetComponent<Renderer>().enabled = HideGF;
                 PlayerPrefs.SetInt("GFPref", 1);
                 HideGF = true;
             }
         }
-
         if (!GFToggle.isOn)
         {
             if (loadedTest == true && HideGF == true)
             {
-                GameObject.FindWithTag("GF").GetComponent<Renderer>().enabled = HideGF;
                 PlayerPrefs.SetInt("GFPref", 0);
                 HideGF = false;
             }
         }
+
+        //Hide BF Toggle
+        if (BFToggle.isOn)
+        {
+            if (loadedTest == true && HideBF == false)
+            {
+                PlayerPrefs.SetInt("BFPref", 1);
+                HideBF = true;
+            }
+        }
+        if (!BFToggle.isOn)
+        {
+            if (loadedTest == true && HideBF == true)
+            {
+                PlayerPrefs.SetInt("BFPref", 0);
+                HideBF = false;
+            }
+        }
+
+        //Hide Enemy Toggle
+        if (EnemyToggle.isOn)
+        {
+            if (loadedTest == true && HideEnemy == false)
+            {
+                PlayerPrefs.SetInt("EnemyPref", 1);
+                HideEnemy = true;
+            }
+        }
+        if (!EnemyToggle.isOn)
+        {
+            if (loadedTest == true && HideEnemy == true)
+            {
+                PlayerPrefs.SetInt("EnemyPref", 0);
+                HideEnemy = false;
+            }
+        }
+
+        //Hide Enemy Arrow Toggle
+        if (EnemyArrowsToggle.isOn)
+        {
+            if (loadedTest == true && HideEnemyArrows == false)
+            {
+                PlayerPrefs.SetInt("EnemyArrowPref", 1);
+                HideEnemyArrows = true;
+            }
+        }
+        if (!EnemyArrowsToggle.isOn)
+        {
+            if (loadedTest == true && HideEnemyArrows == true)
+            {
+                PlayerPrefs.SetInt("EnemyArrowPref", 0);
+                HideEnemyArrows = false;
+            }
+        }
+
+        //Hide Stage Toggle
+        if (StageToggle.isOn)
+        {
+            if (loadedTest == true && HideStage == false)
+            {
+                PlayerPrefs.SetInt("StagePref", 1);
+                HideStage = true;
+            }
+        }
+        if (!StageToggle.isOn)
+        {
+            if (loadedTest == true && HideStage == true)
+            {
+                PlayerPrefs.SetInt("StagePref", 0);
+                HideStage = false;
+            }
+        }
+    }
+
+    public void SetArrowsMoved()
+    {
+        ArrowsMoved = true;
     }
 }

@@ -8482,6 +8482,15 @@ MonoBehaviour:
   voiceMixer: {fileID: 24100000, guid: 93741f0acb27aab4b99bff1e0cd468c5, type: 2}
   HideGF: 0
   GFToggle: {fileID: 1984579733}
+  HideBF: 0
+  BFToggle: {fileID: 1890538747}
+  HideEnemy: 0
+  EnemyToggle: {fileID: 1880766516}
+  HideEnemyArrows: 0
+  EnemyArrowsToggle: {fileID: 727803337}
+  HideStage: 0
+  StageToggle: {fileID: 2123037355}
+  ArrowsMoved: 0
 --- !u!1 &1060010464
 GameObject:
   m_ObjectHideFlags: 0

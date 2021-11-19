@@ -6,6 +6,9 @@ TagManager:
   tags:
   - ArrowDestroyer
   - GF
+  - BF
+  - Enemy
+  - Stage
   layers:
   - Default
   - TransparentFX
