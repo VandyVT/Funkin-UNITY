@@ -19,6 +19,7 @@ public class SettingsManager : MonoBehaviour
     public GameObject Enemy;
     public GameObject EnemyArrows;
     public GameObject EnemyArrowOffscreen;
+    public GameObject EnemyArrowOriginal;
     public GameObject Stage;
 
     void Start()
@@ -49,21 +50,15 @@ public class SettingsManager : MonoBehaviour
                 Enemy.GetComponent<Renderer>().enabled = !Toggle.GetComponent<SettingsMenu>().HideEnemy;
             }
 
-            if (HideEnemyArrows == true)
+            if (Toggle.GetComponent<SettingsMenu>().HideEnemyArrows == true)
             {
-                    Image[] renderArrows = EnemyArrows.GetComponentsInChildren<Image>();
-                    //EnemyArrows.transform.position = EnemyArrowOffscreen.transform.position;
-
-                    int i = 0;
-                    for (i = 0; i < renderArrows.Length; ++i)
-                    {
-                        foreach (var sr in renderArrows)
-                        {
-                            renderArrows[i].GetComponent<Image>().enabled = !Toggle.GetComponent<SettingsMenu>().HideEnemyArrows;
-                        }
-                    }
-                    //Toggle.GetComponent<SettingsMenu>().ArrowsMoved = false;
+                HideArrows();
             }
+            else
+            {
+                ShowArrows();
+            }
+
 
             if (HideStage == true)
             {
@@ -79,5 +74,15 @@ public class SettingsManager : MonoBehaviour
                 }
             }
         }
+    }
+
+    void HideArrows()
+    {
+        EnemyArrows.transform.position = EnemyArrowOffscreen.transform.position;
+    }
+
+    void ShowArrows()
+    {
+        EnemyArrows.transform.position = EnemyArrowOriginal.transform.position;
     }
 }

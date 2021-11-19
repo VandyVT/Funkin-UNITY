@@ -3554,12 +3554,12 @@ MonoBehaviour:
   HideEnemy: 1
   HideEnemyArrows: 1
   HideStage: 1
-  ArrowsMoved: 0
   GF: {fileID: 245118222}
   BF: {fileID: 1256213938}
   Enemy: {fileID: 1553591565}
   EnemyArrows: {fileID: 1626390589}
   EnemyArrowOffscreen: {fileID: 411936113}
+  EnemyArrowOriginal: {fileID: 795361812}
   Stage: {fileID: 788944809}
 --- !u!4 &1399630799
 Transform:
