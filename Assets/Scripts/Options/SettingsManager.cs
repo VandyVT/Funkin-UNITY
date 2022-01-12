@@ -14,20 +14,21 @@ public class SettingsManager : MonoBehaviour
     public bool HideStage;
 
     GameObject Toggle;
-    public GameObject GF;
-    public GameObject BF;
-    public GameObject Enemy;
+    SettingsMenu settings_menu;
+    public Renderer GF;
+    public Renderer BF;
+    public Renderer Enemy;
     public GameObject EnemyArrows;
     public GameObject EnemyArrowOffscreen;
     public GameObject EnemyArrowOriginal;
     public GameObject Stage;
 
-    void Start()
+    void Awake()
     {
         Toggle = GameObject.Find(SettingsToGet);
         if (Toggle != null)
         {
-            Toggle.GetComponent<SettingsMenu>();
+            settings_menu = Toggle.GetComponent<SettingsMenu>();
         }
     }
 
@@ -37,20 +38,20 @@ public class SettingsManager : MonoBehaviour
         {
             if (HideGF == true)
             {
-                GF.GetComponent<Renderer>().enabled = !Toggle.GetComponent<SettingsMenu>().HideGF;
+                GF.enabled = !settings_menu.HideGF;
             }
 
             if (HideBF == true)
             {
-                BF.GetComponent<Renderer>().enabled = !Toggle.GetComponent<SettingsMenu>().HideBF;
+                BF.enabled = !settings_menu.HideBF;
             }
 
             if (HideEnemy == true)
             {
-                Enemy.GetComponent<Renderer>().enabled = !Toggle.GetComponent<SettingsMenu>().HideEnemy;
+                Enemy.enabled = !settings_menu.HideEnemy;
             }
 
-            if (Toggle.GetComponent<SettingsMenu>().HideEnemyArrows == true)
+            if (settings_menu.HideEnemyArrows == true)
             {
                 HideArrows();
             }
@@ -69,7 +70,7 @@ public class SettingsManager : MonoBehaviour
                 {
                     foreach(var sr in renderStage)
                     {
-                        renderStage[i].GetComponent<Renderer>().enabled = !Toggle.GetComponent<SettingsMenu>().HideStage;
+                        renderStage[i].GetComponent<Renderer>().enabled = !settings_menu.HideStage;
                     }
                 }
             }

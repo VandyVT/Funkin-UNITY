@@ -24,7 +24,10 @@ public class SettingsMenu : MonoBehaviour
     public bool HideEnemyArrows; public Toggle EnemyArrowsToggle;
     public bool HideStage; public Toggle StageToggle;
 
-    public bool ArrowsMoved = true;
+    [Header("Technical Stuff")]
+    public AudioSource musicSource;
+    public GameObject introSource;
+
 
     const string PrefName = "optionvalue";
 
@@ -54,6 +57,16 @@ public class SettingsMenu : MonoBehaviour
 
     void Start()
     {
+        introSource = GameObject.Find("IntroMusic");
+        if (musicSource.isPlaying && introSource != null)
+        {
+            if (introSource.GetComponent<AudioSource>().isPlaying)
+            {
+                musicSource.timeSamples = introSource.GetComponent<AudioSource>().timeSamples;
+                Destroy(introSource);
+            }
+        }
+
         resolutions = Screen.resolutions;
         resolutionDropdown.ClearOptions();
         var QLevel = PlayerPrefs.GetInt("GraphicsQuality");
@@ -170,6 +183,11 @@ public class SettingsMenu : MonoBehaviour
         SceneManager.UnloadSceneAsync("FreshTest");
     }
 
+    public void SetMusicBack()
+    {
+        musicSource.timeSamples = 0;
+    }
+
     public void Update()
     {
         int QualityIndex = PlayerPrefs.GetInt("GraphicsQuality");
@@ -271,10 +289,5 @@ public class SettingsMenu : MonoBehaviour
                 HideStage = false;
             }
         }
-    }
-
-    public void SetArrowsMoved()
-    {
-        ArrowsMoved = true;
     }
 }

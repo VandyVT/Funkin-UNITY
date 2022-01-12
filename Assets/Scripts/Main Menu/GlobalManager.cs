@@ -15,20 +15,6 @@ public class GlobalManager : MonoBehaviour
         DontDestroyOnLoad(this);
     }
 
-    private void Start()
-    {
-        IntroMusic = GameObject.Find("IntroMusic");
-        if(IntroMusic)
-        {
-            MenuMusic.GetComponent<AudioSource>().Stop();
-        }
-
-        else
-        {
-            MenuMusic.GetComponent<AudioSource>().Play();
-        }
-    }
-
     public void ToggleStory()
     {
         StoryMode = !StoryMode;

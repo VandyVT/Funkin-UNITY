@@ -27,9 +27,13 @@ public class Countdown : MonoBehaviour
                 audioSource.Play();
                 countDowns[2].LeanMoveLocalY(214f, 0.4f).setEase(LeanTweenType.easeInSine).setDelay(0.2f).setOnComplete(() => {
                     countDowns[2].LeanAlpha(0f, 0.5f).setDelay(0.35f);
-                    conduct.started = true;
                     audioSource.clip = clips[3];
                     audioSource.Play();
+                    countDowns[3].LeanMoveLocalY(214f, 0.4f).setEase(LeanTweenType.easeInSine).setDelay(0.2f).setOnComplete(() =>
+                    {
+                        countDowns[3].LeanAlpha(0f, 0.5f).setDelay(0.35f);
+                        conduct.started = true;
+                    });
                 });
             });
         });

@@ -2057,6 +2057,7 @@ MonoBehaviour:
   - {fileID: 1170404124}
   - {fileID: 904133809}
   - {fileID: 1815946902}
+  - {fileID: 975931239}
   conduct: {fileID: 2108511404}
   audioSource: {fileID: 878054328}
   clips:
@@ -2174,6 +2175,7 @@ Transform:
   - {fileID: 1170404125}
   - {fileID: 904133810}
   - {fileID: 1815946903}
+  - {fileID: 975931240}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2323,6 +2325,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 904133809}
   m_CullTransparentMesh: 0
+--- !u!1 &975931239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 975931240}
+  m_Layer: 0
+  m_Name: Go!
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &975931240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975931239}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 878054329}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1056199201
 GameObject:
   m_ObjectHideFlags: 0
@@ -3563,10 +3595,12 @@ MonoBehaviour:
   HideEnemy: 1
   HideEnemyArrows: 1
   HideStage: 1
-  GF: {fileID: 245118222}
-  BF: {fileID: 1256213938}
-  Enemy: {fileID: 1553591565}
+  GF: {fileID: 245118226}
+  BF: {fileID: 1256213942}
+  Enemy: {fileID: 1553591568}
   EnemyArrows: {fileID: 1626390589}
+  EnemyArrowOffscreen: {fileID: 411936113}
+  EnemyArrowOriginal: {fileID: 795361812}
   Stage: {fileID: 788944809}
 --- !u!4 &1399630799
 Transform:
@@ -3917,7 +3951,7 @@ Animator:
   m_GameObject: {fileID: 1553591565}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d3b400f2661b18c44b764c7461302063, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4612,6 +4646,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1894276375}
+  - component: {fileID: 1894276376}
   m_Layer: 5
   m_Name: Handle Slide Area
   m_TagString: Untagged
@@ -4639,6 +4674,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1894276376
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894276374}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d58e2ff85fe1aa84da80e3c70711b86c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1895354275
 GameObject:
   m_ObjectHideFlags: 0
@@ -5098,7 +5152,7 @@ MonoBehaviour:
   insts: {fileID: 1368615387}
   vocals: {fileID: 529553639}
   BobRate: 0
-  songName: Foolhardy
+  songName: Fresh
   songDiff: 
   bpm: 0
   nextIndex: 0
