@@ -12,7 +12,6 @@ public class NoteInputManager : MonoBehaviour
     public Character bf;
     Animator bfAnim;
     Animator dadAnim;
-
     private void Start()
     {
         strums = gameObject.GetComponent<StrumsController>();
@@ -46,19 +45,19 @@ public class NoteInputManager : MonoBehaviour
                     StartCoroutine(SwitchOffEnemyStrums(control.ArrowTypeSelect));
                     if (control.ArrowTypeSelect == 0)
                     {
-                        dadAnim.Play("Dad Sing Note LEFT", 0);
+                        dadAnim.Play("Dad Sing Note LEFT", 0, 0);
                     }
                     if (control.ArrowTypeSelect == 1)
                     {
-                        dadAnim.Play("Dad Sing Note DOWN", 0);
+                        dadAnim.Play("Dad Sing Note DOWN", 0, 0);
                     }
                     if (control.ArrowTypeSelect == 2)
                     {
-                        dadAnim.Play("Dad Sing Note UP", 0);
+                        dadAnim.Play("Dad Sing Note UP", 0, 0);
                     }
                     if (control.ArrowTypeSelect == 3)
                     {
-                        dadAnim.Play("Dad Sing Note RIGHT", 0);
+                        dadAnim.Play("Dad Sing Note RIGHT", 0, 0);
                     }
                 }
                 else
@@ -73,24 +72,26 @@ public class NoteInputManager : MonoBehaviour
                         
                         if (control.ArrowTypeSelect == 0)
                         {
-                            bfAnim.Play("BF NOTE LEFT", 0);
+                            bfAnim.Play("BF NOTE LEFT", 0, 0);
                         }
+
                         if (control.ArrowTypeSelect == 1)
                         {
-                            bfAnim.Play("BF NOTE DOWN", 0);
+                            bfAnim.Play("BF NOTE DOWN", 0, 0);
                         }
                         if (control.ArrowTypeSelect == 2)
                         {
-                            bfAnim.Play("BF NOTE UP", 0);
+                            bfAnim.Play("BF NOTE UP", 0, 0);
                         }
                         if (control.ArrowTypeSelect == 3)
                         {
-                            bfAnim.Play("BF NOTE RIGHT", 0);
+                            bfAnim.Play("BF NOTE RIGHT", 0, 0);
                         }
                     }
                     if (!InputManager.HoldArray[control.ArrowTypeSelect])
                     {
                         playerHolds[control.ArrowTypeSelect] = false;
+                        
                     }
                 }
             }
@@ -104,6 +105,8 @@ public class NoteInputManager : MonoBehaviour
         }
         strums.playerConfirmArray = playerHolds;
         strums.enemyConfirmArray = enemyHolds;
+
+
     }
     public IEnumerator SwitchOffEnemyStrums(int lane)
     {
