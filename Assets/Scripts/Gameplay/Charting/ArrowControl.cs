@@ -41,10 +41,10 @@ public class ArrowControl : MonoBehaviour
     GameObject Strum;
     public void Initialize(NoteData data)
     {
-        ArrowTypeSelect = data.type % 3;
+        ArrowTypeSelect = data.type % 4;
         sustainLength = data.length;
         strumTime = data.strumTime;
-        MustHit = data.section.mustHitSection || data.type > 3;
+        MustHit = data.section.mustHitSection || data.type > 4;
     }
     void Start()
     {
