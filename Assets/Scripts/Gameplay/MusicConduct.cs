@@ -125,7 +125,7 @@ public class MusicConduct : MonoBehaviour
         BobInt = (int)songPositionInBeats;
         BobRate = secPerBeat;
         gf.speed = BobRate * 2;
-        dad.speed = BobRate * 4;
-        bf.speed = BobRate * 2;
+        //dad.speed = BobRate * 4;
+        //bf.speed = BobRate * 2;
     }
 }
