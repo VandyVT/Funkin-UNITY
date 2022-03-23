@@ -117,14 +117,14 @@ public class MusicConduct : MonoBehaviour
         //Sync voices & music
         if (musicSource.isPlaying && voiceSource.isPlaying)
         {
-            voiceSource.timeSamples = musicSource.timeSamples;
+            voiceSource.time = musicSource.time;
         }
 
         //determine how many beats since the song started
         songPositionInBeats = songPosition / secPerBeat;
         BobInt = (int)songPositionInBeats;
         BobRate = secPerBeat;
-        gf.speed = BobRate * 2;
+        gf.speed = songBpm/(60*2);
         //dad.speed = BobRate * 4;
         //bf.speed = BobRate * 2;
     }
